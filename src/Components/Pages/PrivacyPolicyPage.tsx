@@ -1,6 +1,6 @@
 import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
-import { Typography } from "@chainsafe/common-components"
+import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
@@ -88,7 +88,7 @@ const useStyles = makeStyles(
 
 const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
-
+  useScrollToTop(true);
   return (
     <div>
       <NavBar />
@@ -266,7 +266,8 @@ const TermsOfServicePage: React.FC = () => {
         </ul>
 
         {/* How we use your information */}
-        <Typography          component="h2"
+        <Typography
+          component="h2"
           variant="h3"
           className={clsx(classes.title, classes.padLarge)}
         >
@@ -327,7 +328,6 @@ const TermsOfServicePage: React.FC = () => {
               For any other purpose with your consent and as otherwise outlined in our Terms.
             </Trans>
           </li>
-          
         </ul>
 
         {/* Disclosure of your information */}
@@ -429,7 +429,6 @@ const TermsOfServicePage: React.FC = () => {
           </Trans>
         </Typography>
 
-
         {/* Data retention */}
         <Typography
           component="h2"
@@ -460,7 +459,6 @@ const TermsOfServicePage: React.FC = () => {
           </li>
         </ol>
        
-
         {/* User Rights */}
         <Typography
           component="h2"
