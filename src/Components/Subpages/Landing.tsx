@@ -213,7 +213,7 @@ const useStyles = makeStyles(
     },
     featureList: {
       [breakpoints.up("md")]: {
-        height: `calc(100vh - ${constants.headerHeight}px)`,
+        height: `calc(100% - ${constants.headerHeight}px)`,
       }
     },
     featureTextContainer: {
@@ -222,7 +222,7 @@ const useStyles = makeStyles(
       alignContent: "center",
       [breakpoints.up(750)]:{
         gridTemplateColumns: "minmax(0,5fr) minmax(0, 7fr)",
-        minHeight: "33%",
+        minHeight: "30%",
       },
       [breakpoints.down(750)]:{
         minHeight: "50%",
@@ -289,7 +289,7 @@ const useStyles = makeStyles(
       minHeight: "auto",
       width: "auto",
       margin: constants.generalUnit * 12,
-      [breakpoints.down(1100)]:{
+      [breakpoints.down(1200)]:{
         margin: "5vh",
       },
       [breakpoints.up(3500)]:{
@@ -304,7 +304,7 @@ const useStyles = makeStyles(
       display: "grid",
       gridTemplateColumns: "minmax(0,1fr) minmax(0, 1.5fr)",
       justifyItems: "center",
-      [breakpoints.down(1100)]: {
+      [breakpoints.down(1250)]: {
         gridTemplateColumns: "minmax(0,1fr)",
         alignItems: "center",
       },
@@ -338,6 +338,7 @@ const useStyles = makeStyles(
       },
       [breakpoints.up("md")]: {
         maxWidth: `calc(100% - ${constants.generalUnit * 10}px)`,
+        marginTop: constants.generalUnit * 4,
       }
     },
     loveLetterText: {
