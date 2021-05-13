@@ -391,7 +391,7 @@ const Landing: React.FC = () => {
               <img src="https://ipfs.io/ipfs/QmeVbtNb63sXN8rFVr1Q9Zqz8vWkTbLyw7UoPqTpNCcwaN" alt="Audio file soundwaves"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="hhttps://ipfs.io/ipfs/QmQa7LmSdj2TTwWfaRBLKAUj99iTw99SY3eQQAgbmNoMVt" alt="Lotus field"/>
+              <img src="https://ipfs.io/ipfs/QmQa7LmSdj2TTwWfaRBLKAUj99iTw99SY3eQQAgbmNoMVt" alt="Lotus field"/>
             </div>
             <div className={classes.gifThumbnail}>
               <img src="https://ipfs.io/ipfs/QmTtNGR9gox1qKof8CmShXTcFsGz4pCPfS36tzDV2YgGSt" alt="stone with glitch effect"/>
