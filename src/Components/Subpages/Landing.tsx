@@ -438,7 +438,7 @@ const Landing: React.FC = () => {
               </p>
               <p className={clsx(classes.bodyText, classes.lightText)}>
                 <Trans> 
-                  We only collect what is minimally necessary to provide our service to you. We promise to not to change that.
+                  We only collect what is minimally necessary to provide our service to you. We promise not to change that.
                 </Trans>
               </p>
             </div>
@@ -503,7 +503,7 @@ const Landing: React.FC = () => {
             <Typography variant="h4" component="h2"><Trans>A love letter to the WWW...</Trans></Typography>
             <Typography component="p" className={clsx(classes.bodyText, classes.loveLetterText)}>
               <Trans>
-              Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of filesystems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. 
+              Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. 
               <br></br>
               <br></br>
               Stay tuned. We’re working with the best teams innovating software to make this a reality.
