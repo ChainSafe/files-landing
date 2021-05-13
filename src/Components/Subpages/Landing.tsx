@@ -498,7 +498,7 @@ const Landing: React.FC = () => {
       {/* To WWW, from ChainSafe */}
       <div className={classes.loveLetterContainer}>
         <div className={classes.loveLetterContentContainer}>
-          <img className={classes.loveLetterImg} src="https://res.cloudinary.com/ddxhvanz2/image/upload/v1617711769/files.chainsafe.io/cs-logo-black-bg_mdbtml.png" alt="ChainSafe Logo on black background"/>
+          <img className={classes.loveLetterImg} src="https://ipfs.io/ipfs/QmNfpVmBbt7MfLrwHDvfzzeJK5vnCa9GnnLngvoFmZTqbW" alt="ChainSafe Logo on black background"/>
           <div className={clsx(classes.bodyTextWrapper, classes.flexDirectionColumn, classes.loveLetterTextWrapper)}>
             <Typography variant="h4" component="h2"><Trans>A love letter to the WWW...</Trans></Typography>
             <Typography component="p" className={clsx(classes.bodyText, classes.loveLetterText)}>
