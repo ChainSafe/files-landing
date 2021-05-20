@@ -253,8 +253,8 @@ msgstr "Self-reliance with account recovery."
 msgid "Sign in however you want."
 msgstr "Sign in however you want."
 
-msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever."
-msgstr "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever."
+msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
+msgstr "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
 
 msgid "Storage Limitations"
 msgstr "Storage Limitations"
@@ -331,11 +331,11 @@ msgstr "User Rights"
 msgid "We also collect your personal information when you:"
 msgstr "We also collect your personal information when you:"
 
+msgid "We can't know what you’re storing."
+msgstr "We can't know what you’re storing."
+
 msgid "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
 msgstr "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
-
-msgid "We don't know what you’re storing."
-msgstr "We don't know what you’re storing."
 
 msgid "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."
 msgstr "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."

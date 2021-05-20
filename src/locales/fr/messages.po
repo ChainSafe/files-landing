@@ -4,7 +4,7 @@ msgstr ""
 "Mime-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
+"X-Generator: Poedit 2.3\n"
 "Language: fr\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
@@ -12,9 +12,10 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: \n"
+"MIME-Version: 1.0\n"
 
 msgid "...From the team at ChainSafe Products"
-msgstr ""
+msgstr "... De l'équipe de ChainSafe Products"
 
 msgid "<0>Accessing, Correcting or Updating Your Information: </0>You may request for us at any time to correct your information or to provide you with a copy of your personal information that we maintain in electronic format."
 msgstr ""
@@ -92,16 +93,16 @@ msgid "<0>Withdrawing Consent: </0>You may withdraw your consent for our collect
 msgstr ""
 
 msgid "A love letter to the WWW..."
-msgstr ""
+msgstr "Une lettre d'amour au WWW ..."
 
 msgid "A sanctuary for all your files and thoughts."
-msgstr ""
+msgstr "Un sanctuaire pour tous vos fichiers et vos pensées."
 
 msgid "Account Term and Termination"
 msgstr ""
 
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "Tous les droits réservés"
 
 msgid "As a privacy-first file storage service, we take your privacy rights very seriously. Our services are designed to limit the personal information we collect from you. We will never sell your information to third-parties and will never bother you with advertisements. In keeping privacy top of mind, our goal is to make sure that any information we require from you is necessary for the limited purposes you consent to."
 msgstr ""
@@ -131,13 +132,13 @@ msgid "Communicate with us through email, social media, or by phone or any other
 msgstr ""
 
 msgid "Community"
-msgstr ""
+msgstr "Communauté"
 
 msgid "Company"
-msgstr ""
+msgstr "Entreprise"
 
 msgid "Contact"
-msgstr ""
+msgstr "Nous contacter"
 
 msgid "Data retention"
 msgstr ""
@@ -155,13 +156,13 @@ msgid "Each user is responsible for their transmissions through their Files Acco
 msgstr ""
 
 msgid "Easy to use."
-msgstr ""
+msgstr "Facile à utiliser."
 
 msgid "Equal parts privacy and convenience."
-msgstr ""
+msgstr "Facile et privé."
 
 msgid "Files is a next-gen app that blends cloud storage with blockchain and data privacy. We’re leveraging the power of the IPFS and Filecoin network to protect your stuff from data loss."
-msgstr ""
+msgstr "Files est une application de nouvelle génération qui associe le stockage dans le cloud à la blockchain et à la confidentialité des données. Nous exploitons la puissance du réseau IPFS et Filecoin pour se protéger contre la perte de vos données."
 
 msgid "Files is an advertising-free platform. Third-party involvement is limited to facilitating the service and your connectivity to it – for example, using OAuth to log into your Files account, or providing financial information to pay for the service. The Company is not responsible for any handling of data or cookies used by third parties in facilitating the Service."
 msgstr ""
@@ -206,7 +207,7 @@ msgid "Last modified: April 28, 2021"
 msgstr ""
 
 msgid "Launch App"
-msgstr ""
+msgstr "Lancer l'Appli"
 
 msgid "Limitation of Liability"
 msgstr ""
@@ -215,10 +216,10 @@ msgid "Modifications to Terms of Service, Member Policies"
 msgstr ""
 
 msgid "Next gen."
-msgstr ""
+msgstr "Prochaine génération."
 
 msgid "Not in the business of tracking you and selling your data."
-msgstr ""
+msgstr "Notre métier n'est pas de vous suivre et de vendre vos données."
 
 msgid "Opting-Out of Communications"
 msgstr ""
@@ -230,31 +231,31 @@ msgid "Personal information we (indirectly) collect"
 msgstr ""
 
 msgid "Powered by peer-to-peer."
-msgstr ""
+msgstr "Grâce au peer-to-peer."
 
 msgid "Preview your stuff. Access it from any device. Organize folders. And much more coming soon. <0>✨</0>"
-msgstr ""
+msgstr "Prévisualisez vos contenus. Accédez-y depuis n'importe quel appareil. Organisez les dossiers. Et bien plus à venir. <0> ✨ </0>"
 
 msgid "Privacy Policy"
 msgstr ""
 
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 msgid "Provide us with your name, email address or other identifying information."
 msgstr ""
 
 msgid "Secure."
-msgstr ""
+msgstr "Sécurisé."
 
 msgid "Self-reliance with account recovery."
 msgstr ""
 
 msgid "Sign in however you want."
-msgstr ""
+msgstr "Connectez-vous comme vous le souhaitez."
 
-msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever."
-msgstr ""
+msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
+msgstr "Inscrivez-vous avec votre compte GitHub, Google ou Facebook. Ou connectez un portefeuille Ethereum."
 
 msgid "Storage Limitations"
 msgstr ""
@@ -263,7 +264,7 @@ msgid "Subscription Types and Payment Terms"
 msgstr ""
 
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 msgid "Terms of Service"
 msgstr ""
@@ -331,10 +332,10 @@ msgstr ""
 msgid "We also collect your personal information when you:"
 msgstr ""
 
-msgid "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
-msgstr ""
+msgid "We can't know what you’re storing."
+msgstr "Nous ne pouvons pas savoir ce que vous stockez."
 
-msgid "We don't know what you’re storing."
+msgid "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
 msgstr ""
 
 msgid "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."
@@ -359,7 +360,7 @@ msgid "We may send periodic marketing, promotional or informational emails to yo
 msgstr ""
 
 msgid "We only collect what is minimally necessary to provide our service to you. We promise not to change that."
-msgstr ""
+msgstr "Nous ne collectons que les données minimum nécessaires pour vous fournir notre service. Nous promettons de ne pas changer cela."
 
 msgid "We take steps to ensure that the personal information that we collect about you is adequate, relevant, minimal, and used for limited purposes. By accessing the Service, you confirm that you have read and understand our Terms of Service (the “Terms”), found here, and this Privacy Policy. Any capitalized term not defined in this Privacy Policy is incorporated by reference from our Terms."
 msgstr ""
@@ -371,13 +372,13 @@ msgid "Welcome! Here at ChainSafe Systems Inc. (“ChainSafe”, “we”, “us
 msgstr ""
 
 msgid "What you want to do with your files is totally up to you.  End-to-end encryption means your content can only be seen by you."
-msgstr ""
+msgstr "Ce que vous voulez faire de vos fichiers ne regarde que vous. Le chiffrement de bout en bout signifie que votre contenu ne peut être vu que par vous."
 
 msgid "When/how we collect information:"
 msgstr ""
 
 msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
-msgstr ""
+msgstr "Oui, nous voulons que les gens aient la meilleure expérience en ligne sans sacrifier leur confidentialité ou leur sécurité. Mais il y a plus. Nous réinventons l’avenir des systèmes de fichiers et des cycles de vie des fichiers. Pourquoi? Parce que vous méritez de passer moins de temps à télécharger ici, à télécharger là-bas et à mélanger des éléments d'une plate-forme à l'autre. Nous allons rendre incroyablement facile la connexion de tout votre contenu en toute sécurité. Sans vous forcer sur une seule plateforme. <0 /> <1 /> Restez à l’écoute. Nous travaillons avec les meilleures équipes pour en faire une réalité."
 
 msgid "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
 msgstr ""

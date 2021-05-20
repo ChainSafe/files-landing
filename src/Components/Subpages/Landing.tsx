@@ -424,7 +424,7 @@ const Landing: React.FC = () => {
           <div className={classes.featureBodyTextContainer}>
             <div className={classes.bodyTextWrapper}>
               <Typography component="p" className={clsx(classes.bodyText, classes.lightText)}>
-                <strong><Trans>We don't know what you’re storing.</Trans></strong>
+                <strong><Trans>We can't know what you’re storing.</Trans></strong>
               </Typography>
               <Typography component="p" className={clsx(classes.bodyText, classes.lightText)}>
                 <Trans>
@@ -453,7 +453,7 @@ const Landing: React.FC = () => {
               </Typography>
               <Typography component="p" className={classes.bodyText}>
                 <Trans>
-                  Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever. 
+                  Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. 
                 </Trans>
               </Typography>
             </div>
@@ -463,7 +463,7 @@ const Landing: React.FC = () => {
               </Typography>
               <Typography component="p" className={classes.bodyText}>
                 <Trans>
-                Preview your stuff. Access it from any device. Organize folders. And much more coming soon. <span role="img"  aria-label="sparkle">✨</span>
+                  Preview your stuff. Access it from any device. Organize folders. And much more coming soon. <span role="img"  aria-label="sparkle">✨</span>
                 </Trans>
               </Typography>
             </div>
