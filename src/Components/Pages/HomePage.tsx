@@ -10,11 +10,9 @@ const HomePage: React.FC = () => {
   const { availableLanguages, selectedLanguage, setActiveLanguage } = useLanguageContext()
 
   useEffect(() => {
-    console.log('lang', lang)
     if (!lang) return
 
     const availableRoute = availableLanguages.find((availableLanguage) => availableLanguage.id === lang)
-    console.log('availableRoot', availableRoute)
 
     if(availableRoute !== undefined && selectedLanguage !== lang ){
       setActiveLanguage(lang, false)
