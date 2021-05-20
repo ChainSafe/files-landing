@@ -6,6 +6,7 @@ import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage"
 
 export const ROUTE_LINKS = {
   Home: "/",
+  HomeLang: (lang = ":lang") => `/${lang}`,
   Pricing: "/pricing",
   TermsOfService: "/terms-of-service",
   PrivacyPolicy: "/privacy-policy",
@@ -25,6 +26,7 @@ const Routes = () => {
         path={ROUTE_LINKS.PrivacyPolicy}
         component={PrivacyPolicyPage}
       />
+      <Route path={ROUTE_LINKS.HomeLang()} component={HomePage} />
     </Switch>
   )
 }

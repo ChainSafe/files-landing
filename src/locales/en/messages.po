@@ -6,48 +6,156 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-msgid "<0>General personal information:</0> We may collect info that we can reasonably use to directly or indirectly identify you, such as your name, billing address, e-mail address, Internet protocol (IP) address, user name or other similar identifier, and any other identifier we may use to bill you or contact you (<1>\"personal information\"</1>). This will most likely be the case when you opt to pay for our Service using a credit card."
-msgstr "<0>General personal information:</0> We may collect info that we can reasonably use to directly or indirectly identify you, such as your name, billing address, e-mail address, Internet protocol (IP) address, user name or other similar identifier, and any other identifier we may use to bill you or contact you (<1>\"personal information\"</1>). This will most likely be the case when you opt to pay for our Service using a credit card."
+msgid "...From the team at ChainSafe Products"
+msgstr "...From the team at ChainSafe Products"
 
-msgid "<0>Non-personal details about your Website interactions:</0> This includes the full Uniform Resource Locators (URLs), click stream to, through and from our Website (including date and time), products you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call our customer service number. We collect cookies on this promotional website for anonymized system monitoring and non-personal analytics."
-msgstr "<0>Non-personal details about your Website interactions:</0> This includes the full Uniform Resource Locators (URLs), click stream to, through and from our Website (including date and time), products you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call our customer service number. We collect cookies on this promotional website for anonymized system monitoring and non-personal analytics."
+msgid "<0>Accessing, Correcting or Updating Your Information: </0>You may request for us at any time to correct your information or to provide you with a copy of your personal information that we maintain in electronic format."
+msgstr "<0>Accessing, Correcting or Updating Your Information: </0>You may request for us at any time to correct your information or to provide you with a copy of your personal information that we maintain in electronic format."
 
-msgid "<0>Non-personal information:</0> Info that does not in any way reveal your identity or directly relate to an identifiable individual, such as demographic information, or statistical or aggregated information. Statistical or aggregated data does not directly identify a person, but we may derive non-personal statistical or aggregated data from personal information. For example, we may aggregate personal information to calculate the percentage of users accessing a specific Website feature, such as a video. Files may also be able to access information about account activity that is unencrypted. This would include information such as payment type, language preference, storage space used and files size after encryption. This information is used solely to provide a smooth user experience and will not be shared or sold."
-msgstr "<0>Non-personal information:</0> Info that does not in any way reveal your identity or directly relate to an identifiable individual, such as demographic information, or statistical or aggregated information. Statistical or aggregated data does not directly identify a person, but we may derive non-personal statistical or aggregated data from personal information. For example, we may aggregate personal information to calculate the percentage of users accessing a specific Website feature, such as a video. Files may also be able to access information about account activity that is unencrypted. This would include information such as payment type, language preference, storage space used and files size after encryption. This information is used solely to provide a smooth user experience and will not be shared or sold."
+msgid "<0>Affiliated Companies:</0> We may share your information with our subsidiaries, parent company and other affiliated entities to effectively provide you with the Service."
+msgstr "<0>Affiliated Companies:</0> We may share your information with our subsidiaries, parent company and other affiliated entities to effectively provide you with the Service."
 
-msgid "<0>Personal information for account registration:</0> In the case that you register for an account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your Files account. In the case that you register using an Ethereum address, we store your Ethereum address to associate it with your account. We will store your email address only if you opt-in to providing it. It is not required by users logging in with an Ethereum address to provide an email."
-msgstr "<0>Personal information for account registration:</0> In the case that you register for an account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your Files account. In the case that you register using an Ethereum address, we store your Ethereum address to associate it with your account. We will store your email address only if you opt-in to providing it. It is not required by users logging in with an Ethereum address to provide an email."
+msgid "<0>Applicable Law:</0> there may be laws under the jurisdictions that we operate in that compel us to disclose personal information or account data. If required, we may provide personal information or User Account files that we receive from you or a third-party in an unencrypted format."
+msgstr "<0>Applicable Law:</0> there may be laws under the jurisdictions that we operate in that compel us to disclose personal information or account data. If required, we may provide personal information or User Account files that we receive from you or a third-party in an unencrypted format."
 
-msgid "<0>Personal information for purchasing subscriptions:</0> In the case that you purchase a subscription to our service with a credit card, we may store your billing information. ChainSafe Files uses a third-party payment processor, and it is necessary for us to share your payment information with the processor to know which account the payment applies to. We do not store your payment information for any other purpose. In the case that you purchase a subscription to our service with cryptocurrency, we may collect transaction information."
-msgstr "<0>Personal information for purchasing subscriptions:</0> In the case that you purchase a subscription to our service with a credit card, we may store your billing information. ChainSafe Files uses a third-party payment processor, and it is necessary for us to share your payment information with the processor to know which account the payment applies to. We do not store your payment information for any other purpose. In the case that you purchase a subscription to our service with cryptocurrency, we may collect transaction information."
+msgid "<0>Business Transactions:</0> ChainSafe reserves the right to share your information in connection with any proposed or realized merger, divestiture, consolidation, restructuring, purchase, sale or any other type of business combination that requires its disclosure."
+msgstr "<0>Business Transactions:</0> ChainSafe reserves the right to share your information in connection with any proposed or realized merger, divestiture, consolidation, restructuring, purchase, sale or any other type of business combination that requires its disclosure."
 
-msgid "<0>Technical information:</0> This includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection, the equipment you use to access our Website, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve our service."
-msgstr "<0>Technical information:</0> This includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection, the equipment you use to access our Website, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve our service."
+msgid "<0>Commercial Partners:</0> We may share your information or anonymized aggregated data derived from your information and the information of others with some of our commercial partners."
+msgstr "<0>Commercial Partners:</0> We may share your information or anonymized aggregated data derived from your information and the information of others with some of our commercial partners."
 
-msgid "ACCOUNT TERM AND TERMINATION"
-msgstr "ACCOUNT TERM AND TERMINATION"
+msgid "<0>Deleting Your Information: </0>You may request for us at any time to have your personal information that we maintain deleted. We will comply with your request unless there are legitimate business or legal grounds for the continued retention of your personal information."
+msgstr "<0>Deleting Your Information: </0>You may request for us at any time to have your personal information that we maintain deleted. We will comply with your request unless there are legitimate business or legal grounds for the continued retention of your personal information."
 
-msgid "Accessing and correcting your personal information"
-msgstr "Accessing and correcting your personal information"
+msgid "<0>Details of your usage of the Service:</0> this includes traffic data, logs, other communication data and the resources that you access and use. This may also include the URLs, pages you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call us."
+msgstr "<0>Details of your usage of the Service:</0> this includes traffic data, logs, other communication data and the resources that you access and use. This may also include the URLs, pages you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call us."
 
-msgid "All uploaded files are stored and retrieved via end-to-end encryption with AES-256 and HMAC encryption."
-msgstr "All uploaded files are stored and retrieved via end-to-end encryption with AES-256 and HMAC encryption."
+msgid "<0>Enforcement.</0> We may disclose personal information in order to establish or exercise our legal rights, or to defend against legal claims, or when we believe it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, data breaches, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our Terms of Service, or as otherwise required by law."
+msgstr "<0>Enforcement.</0> We may disclose personal information in order to establish or exercise our legal rights, or to defend against legal claims, or when we believe it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, data breaches, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our Terms of Service, or as otherwise required by law."
 
-msgid "Bridging users of today and tomorrow."
-msgstr "Bridging users of today and tomorrow."
+msgid "<0>Ethereum Authentication:</0> if you register using an Ethereum address, we will store the Ethereum address to associate it with your User Account. We will store your email address only if you opt-in to providing it. An email address is not required for users accessing the Service with an Ethereum address."
+msgstr "<0>Ethereum Authentication:</0> if you register using an Ethereum address, we will store the Ethereum address to associate it with your User Account. We will store your email address only if you opt-in to providing it. An email address is not required for users accessing the Service with an Ethereum address."
 
-msgid "By using this Website or our services, you agree to the practices described in this policy. This policy may change from time to time. Your continued use of this Website and service after we make changes means you agree to those changes, so please check the policy periodically for updates. If there is any material change to this policy, we will notify you."
-msgstr "By using this Website or our services, you agree to the practices described in this policy. This policy may change from time to time. Your continued use of this Website and service after we make changes means you agree to those changes, so please check the policy periodically for updates. If there is any material change to this policy, we will notify you."
+#~ msgid "<0>General personal information:</0> We may collect info that we can reasonably use to directly or indirectly identify you, such as your name, billing address, e-mail address, Internet protocol (IP) address, user name or other similar identifier, and any other identifier we may use to bill you or contact you (<1>\"personal information\"</1>). This will most likely be the case when you opt to pay for our Service using a credit card."
+#~ msgstr "<0>General personal information:</0> We may collect info that we can reasonably use to directly or indirectly identify you, such as your name, billing address, e-mail address, Internet protocol (IP) address, user name or other similar identifier, and any other identifier we may use to bill you or contact you (<1>\"personal information\"</1>). This will most likely be the case when you opt to pay for our Service using a credit card."
 
-msgid "ChainSafe Files"
-msgstr "ChainSafe Files"
+msgid "<0>Information you may provide to us:</0> through the course of using the Service, you may be prompted to provide us with your: (i) name; (ii) email address; (iii) password; (iv) authentication information; (v) Web3 wallet; and (vi) payment information."
+msgstr "<0>Information you may provide to us:</0> through the course of using the Service, you may be prompted to provide us with your: (i) name; (ii) email address; (iii) password; (iv) authentication information; (v) Web3 wallet; and (vi) payment information."
 
-msgid "ChainSafe Files is a decentralized file storage service. ChainSafe Files utilizes the Filecoin network, a blockchain-enabled storage network, to offer users easy and reliable access to files and fewer storage limitations at competitive prices."
-msgstr "ChainSafe Files is a decentralized file storage service. ChainSafe Files utilizes the Filecoin network, a blockchain-enabled storage network, to offer users easy and reliable access to files and fewer storage limitations at competitive prices."
+msgid "<0>Legal Requirements:</0> We may disclose personal information in order to comply with any court order, law, or legal process, including to respond to any government or regulatory request, under applicable law."
+msgstr "<0>Legal Requirements:</0> We may disclose personal information in order to comply with any court order, law, or legal process, including to respond to any government or regulatory request, under applicable law."
 
-msgid "ChainSafe collects personal information that you give to us when you:"
-msgstr "ChainSafe collects personal information that you give to us when you:"
+#~ msgid "<0>Non-personal details about your Website interactions:</0> This includes the full Uniform Resource Locators (URLs), click stream to, through and from our Website (including date and time), products you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call our customer service number. We collect cookies on this promotional website for anonymized system monitoring and non-personal analytics."
+#~ msgstr "<0>Non-personal details about your Website interactions:</0> This includes the full Uniform Resource Locators (URLs), click stream to, through and from our Website (including date and time), products you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call our customer service number. We collect cookies on this promotional website for anonymized system monitoring and non-personal analytics."
+
+#~ msgid "<0>Non-personal information:</0> Info that does not in any way reveal your identity or directly relate to an identifiable individual, such as demographic information, or statistical or aggregated information. Statistical or aggregated data does not directly identify a person, but we may derive non-personal statistical or aggregated data from personal information. For example, we may aggregate personal information to calculate the percentage of users accessing a specific Website feature, such as a video. Files may also be able to access information about account activity that is unencrypted. This would include information such as payment type, language preference, storage space used and files size after encryption. This information is used solely to provide a smooth user experience and will not be shared or sold."
+#~ msgstr "<0>Non-personal information:</0> Info that does not in any way reveal your identity or directly relate to an identifiable individual, such as demographic information, or statistical or aggregated information. Statistical or aggregated data does not directly identify a person, but we may derive non-personal statistical or aggregated data from personal information. For example, we may aggregate personal information to calculate the percentage of users accessing a specific Website feature, such as a video. Files may also be able to access information about account activity that is unencrypted. This would include information such as payment type, language preference, storage space used and files size after encryption. This information is used solely to provide a smooth user experience and will not be shared or sold."
+
+msgid "<0>OAuth Authentication:</0> if you register for a User Account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your User Account."
+msgstr "<0>OAuth Authentication:</0> if you register for a User Account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your User Account."
+
+msgid "<0>Object to our Processing: </0>You may request for us to restrict or cease the processing of your personal information if you believe it has been processed (i) in a manner contrary to applicable law; (ii) in a manner outside of the consent you provided; or (iii) after your consent has been withdrawn. We will comply with your request unless there are legitimate business or legal grounds for the continued processing of your personal information."
+msgstr "<0>Object to our Processing: </0>You may request for us to restrict or cease the processing of your personal information if you believe it has been processed (i) in a manner contrary to applicable law; (ii) in a manner outside of the consent you provided; or (iii) after your consent has been withdrawn. We will comply with your request unless there are legitimate business or legal grounds for the continued processing of your personal information."
+
+msgid "<0>Payment Processors:</0> Users may be able to submit payment information into the Service to pay for certain features. ChainSafe utilizes third-party payment processors to facilitate payments. We do not receive nor store any payment information on our servers. All payment transactions are encrypted when communicated through our third-party payment processor."
+msgstr "<0>Payment Processors:</0> Users may be able to submit payment information into the Service to pay for certain features. ChainSafe utilizes third-party payment processors to facilitate payments. We do not receive nor store any payment information on our servers. All payment transactions are encrypted when communicated through our third-party payment processor."
+
+#~ msgid "<0>Personal information for account registration:</0> In the case that you register for an account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your Files account. In the case that you register using an Ethereum address, we store your Ethereum address to associate it with your account. We will store your email address only if you opt-in to providing it. It is not required by users logging in with an Ethereum address to provide an email."
+#~ msgstr "<0>Personal information for account registration:</0> In the case that you register for an account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your Files account. In the case that you register using an Ethereum address, we store your Ethereum address to associate it with your account. We will store your email address only if you opt-in to providing it. It is not required by users logging in with an Ethereum address to provide an email."
+
+#~ msgid "<0>Personal information for purchasing subscriptions:</0> In the case that you purchase a subscription to our service with a credit card, we may store your billing information. ChainSafe Files uses a third-party payment processor, and it is necessary for us to share your payment information with the processor to know which account the payment applies to. We do not store your payment information for any other purpose. In the case that you purchase a subscription to our service with cryptocurrency, we may collect transaction information."
+#~ msgstr "<0>Personal information for purchasing subscriptions:</0> In the case that you purchase a subscription to our service with a credit card, we may store your billing information. ChainSafe Files uses a third-party payment processor, and it is necessary for us to share your payment information with the processor to know which account the payment applies to. We do not store your payment information for any other purpose. In the case that you purchase a subscription to our service with cryptocurrency, we may collect transaction information."
+
+msgid "<0>Privacy Officer</0><1/><2>support@chainsafe.io</2>"
+msgstr "<0>Privacy Officer</0><1/><2>support@chainsafe.io</2>"
+
+msgid "<0>Retention Policy.</0> To improve the Service, we may aggregate information from users after removing information that can allow them to be identified. You acknowledge and agree that we may use anonymized personal information for legitimate business purposes that cannot be associated with you or the User. We reserve the right to use such anonymized information without further notice."
+msgstr "<0>Retention Policy.</0> To improve the Service, we may aggregate information from users after removing information that can allow them to be identified. You acknowledge and agree that we may use anonymized personal information for legitimate business purposes that cannot be associated with you or the User. We reserve the right to use such anonymized information without further notice."
+
+msgid "<0>Statistical and Aggregated information:</0> this includes information that we receive across users that does not directly identify a person. Any aggregated information will be anonymized and de-identified if analyzed and used."
+msgstr "<0>Statistical and Aggregated information:</0> this includes information that we receive across users that does not directly identify a person. Any aggregated information will be anonymized and de-identified if analyzed and used."
+
+msgid "<0>Storage Providers:</0> We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as privacy laws in Canada. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
+msgstr "<0>Storage Providers:</0> We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as privacy laws in Canada. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
+
+msgid "<0>Store Files. Unparalleled privacy. Unparalleled simplicity.</0>"
+msgstr "<0>Store Files. Unparalleled privacy. Unparalleled simplicity.</0>"
+
+#~ msgid "<0>Technical information:</0> This includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection, the equipment you use to access our Website, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve our service."
+#~ msgstr "<0>Technical information:</0> This includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection, the equipment you use to access our Website, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve our service."
+
+msgid "<0>Technical information:</0> this includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection (IP address), the equipment you use to access the Service, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve the Service."
+msgstr "<0>Technical information:</0> this includes your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform, or information about your internet connection (IP address), the equipment you use to access the Service, and usage details. This might also include IDs of errors, communications with the support team or bug reports to improve the Service."
+
+msgid "<0>Termination of Account.</0> If your account on the Service is terminated, we may retain your personal information for a certain period of time (e.g., archive your personal information), which will be disclosed to you and performed in accordance with our practices under this Privacy Policy."
+msgstr "<0>Termination of Account.</0> If your account on the Service is terminated, we may retain your personal information for a certain period of time (e.g., archive your personal information), which will be disclosed to you and performed in accordance with our practices under this Privacy Policy."
+
+msgid "<0>Third-Party Service Providers:</0> We may share your information with trusted service providers, contractors, the organizations they act on behalf of, and other third-parties (such as decentralized protocols) that we use to support our business. For these third-party service providers to perform or facilitate these functions, they may require us to provide them with your information. If we provide them with your information, we will contractually obligate them to keep your information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
+msgstr "<0>Third-Party Service Providers:</0> We may share your information with trusted service providers, contractors, the organizations they act on behalf of, and other third-parties (such as decentralized protocols) that we use to support our business. For these third-party service providers to perform or facilitate these functions, they may require us to provide them with your information. If we provide them with your information, we will contractually obligate them to keep your information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
+
+msgid "<0>Transfers of Data: </0>We and our affiliates and third-party service providers primarily store data about you, on decentralized servers located globally. If you reside or are located outside of Canada, we may send and store your data to Canada in order to provide and operate the Service. ChainSafe undertakes to ensure an adequate level of protection of any personal information transferred outside of Canada."
+msgstr "<0>Transfers of Data: </0>We and our affiliates and third-party service providers primarily store data about you, on decentralized servers located globally. If you reside or are located outside of Canada, we may send and store your data to Canada in order to provide and operate the Service. ChainSafe undertakes to ensure an adequate level of protection of any personal information transferred outside of Canada."
+
+msgid "<0>Violent, Pornographic or other Illegal Content:</0> it is a violation of our Terms of Service to upload illegal content or content that may affect the safety or well-being of others. If we are made aware that any User Content that you transmit through the Service contains material relating to child pornography, acts of terrorism, violent actions or other illegal material we may report it to the relevant authorities and remove the User Content from the Service."
+msgstr "<0>Violent, Pornographic or other Illegal Content:</0> it is a violation of our Terms of Service to upload illegal content or content that may affect the safety or well-being of others. If we are made aware that any User Content that you transmit through the Service contains material relating to child pornography, acts of terrorism, violent actions or other illegal material we may report it to the relevant authorities and remove the User Content from the Service."
+
+msgid "<0>Withdrawing Consent: </0>You may withdraw your consent for our collection, use and disclosure of your personal information at any time. We will comply with your request unless it conflicts with our legal obligations or an established standard of practice. Please be aware that if you withdraw your consent, we may be unable to provide you with the Service."
+msgstr "<0>Withdrawing Consent: </0>You may withdraw your consent for our collection, use and disclosure of your personal information at any time. We will comply with your request unless it conflicts with our legal obligations or an established standard of practice. Please be aware that if you withdraw your consent, we may be unable to provide you with the Service."
+
+msgid "A love letter to the WWW..."
+msgstr "A love letter to the WWW..."
+
+msgid "A sanctuary for all your files and thoughts."
+msgstr "A sanctuary for all your files and thoughts."
+
+#~ msgid "ACCOUNT TERM AND TERMINATION"
+#~ msgstr "ACCOUNT TERM AND TERMINATION"
+
+#~ msgid "Accessing and correcting your personal information"
+#~ msgstr "Accessing and correcting your personal information"
+
+msgid "Account Term and Termination"
+msgstr "Account Term and Termination"
+
+msgid "All Rights Reserved"
+msgstr "All Rights Reserved"
+
+#~ msgid "All uploaded files are stored and retrieved via end-to-end encryption with AES-256 and HMAC encryption."
+#~ msgstr "All uploaded files are stored and retrieved via end-to-end encryption with AES-256 and HMAC encryption."
+
+msgid "As a privacy-first file storage service, we take your privacy rights very seriously. Our services are designed to limit the personal information we collect from you. We will never sell your information to third-parties and will never bother you with advertisements. In keeping privacy top of mind, our goal is to make sure that any information we require from you is necessary for the limited purposes you consent to."
+msgstr "As a privacy-first file storage service, we take your privacy rights very seriously. Our services are designed to limit the personal information we collect from you. We will never sell your information to third-parties and will never bother you with advertisements. In keeping privacy top of mind, our goal is to make sure that any information we require from you is necessary for the limited purposes you consent to."
+
+#~ msgid "Bridging users of today and tomorrow."
+#~ msgstr "Bridging users of today and tomorrow."
+
+#~ msgid "By using this Website or our services, you agree to the practices described in this policy. This policy may change from time to time. Your continued use of this Website and service after we make changes means you agree to those changes, so please check the policy periodically for updates. If there is any material change to this policy, we will notify you."
+#~ msgstr "By using this Website or our services, you agree to the practices described in this policy. This policy may change from time to time. Your continued use of this Website and service after we make changes means you agree to those changes, so please check the policy periodically for updates. If there is any material change to this policy, we will notify you."
+
+#~ msgid "ChainSafe Files"
+#~ msgstr "ChainSafe Files"
+
+#~ msgid "ChainSafe Files is a decentralized file storage service. ChainSafe Files utilizes the Filecoin network, a blockchain-enabled storage network, to offer users easy and reliable access to files and fewer storage limitations at competitive prices."
+#~ msgstr "ChainSafe Files is a decentralized file storage service. ChainSafe Files utilizes the Filecoin network, a blockchain-enabled storage network, to offer users easy and reliable access to files and fewer storage limitations at competitive prices."
+
+msgid "ChainSafe Files uses automatic data collection technologies to collect personal information that relates to your equipment, browsing actions and usage patterns on the Service. We may utilize and integrate third-party service providers into the Service that use cookies to collect personal information. Any information that is derived through our use of cookies and other data collection technologies is used to provide us with analytics and other Service improvements. Information indirectly collected may include:"
+msgstr "ChainSafe Files uses automatic data collection technologies to collect personal information that relates to your equipment, browsing actions and usage patterns on the Service. We may utilize and integrate third-party service providers into the Service that use cookies to collect personal information. Any information that is derived through our use of cookies and other data collection technologies is used to provide us with analytics and other Service improvements. Information indirectly collected may include:"
+
+msgid "ChainSafe Files uses physical, electronic, technical and administrative safeguards designed to secure your personal information from accidental loss and unauthorized access, use, modification, and disclosure. Any personal information stored and retrieved through the Service are encrypted end-to-end using AES-256 and HMAC encryption. Although we implement measures to protect your personal information, we cannot guarantee the security of your personal information transmitted to the Service over the internet. Any transmission of personal information through the Service is done at your own risk. We are not responsible for your circumvention of any privacy settings or security measures contained on the Service."
+msgstr "ChainSafe Files uses physical, electronic, technical and administrative safeguards designed to secure your personal information from accidental loss and unauthorized access, use, modification, and disclosure. Any personal information stored and retrieved through the Service are encrypted end-to-end using AES-256 and HMAC encryption. Although we implement measures to protect your personal information, we cannot guarantee the security of your personal information transmitted to the Service over the internet. Any transmission of personal information through the Service is done at your own risk. We are not responsible for your circumvention of any privacy settings or security measures contained on the Service."
+
+msgid "ChainSafe Systems"
+msgstr "ChainSafe Systems"
+
+#~ msgid "ChainSafe collects personal information that you give to us when you:"
+#~ msgstr "ChainSafe collects personal information that you give to us when you:"
 
 msgid "ChainSafe may make improvements and/or changes to the Service at any time without notice. We do not guarantee that Files will be uninterrupted or error-free, that bugs or malfunctions will be corrected, or that the Service and its servers are free of harmful components. We make no warranty or covenant on the availability, reliability, or timeliness of the Service, and we are not responsible for the appropriateness of the Service for any particular purpose."
 msgstr "ChainSafe may make improvements and/or changes to the Service at any time without notice. We do not guarantee that Files will be uninterrupted or error-free, that bugs or malfunctions will be corrected, or that the Service and its servers are free of harmful components. We make no warranty or covenant on the availability, reliability, or timeliness of the Service, and we are not responsible for the appropriateness of the Service for any particular purpose."
@@ -55,11 +163,20 @@ msgstr "ChainSafe may make improvements and/or changes to the Service at any tim
 msgid "ChainSafe will not be held responsible for any and all damages whatsoever as a result of the loss of use, data or profits connected to the performance of your Files Account. The user is solely responsible for any and all information that passes and is stored through it. We don’t take responsibility for the implications of any attempt to use this website for activities or virtual currencies that Files does not support."
 msgstr "ChainSafe will not be held responsible for any and all damages whatsoever as a result of the loss of use, data or profits connected to the performance of your Files Account. The user is solely responsible for any and all information that passes and is stored through it. We don’t take responsibility for the implications of any attempt to use this website for activities or virtual currencies that Files does not support."
 
-msgid "Changes to our privacy policy"
-msgstr "Changes to our privacy policy"
+msgid "Changes to our Privacy Policy"
+msgstr "Changes to our Privacy Policy"
 
-msgid "Children under 13"
-msgstr "Children under 13"
+#~ msgid "Changes to our privacy policy"
+#~ msgstr "Changes to our privacy policy"
+
+#~ msgid "Children under 13"
+#~ msgstr "Children under 13"
+
+msgid "Children’s Privacy"
+msgstr "Children’s Privacy"
+
+msgid "Communicate with us through email, social media, or by phone or any other means."
+msgstr "Communicate with us through email, social media, or by phone or any other means."
 
 msgid "Community"
 msgstr "Community"
@@ -67,8 +184,11 @@ msgstr "Community"
 msgid "Company"
 msgstr "Company"
 
-msgid "Contact information and challenging compliance"
-msgstr "Contact information and challenging compliance"
+msgid "Contact"
+msgstr "Contact"
+
+#~ msgid "Contact information and challenging compliance"
+#~ msgstr "Contact information and challenging compliance"
 
 msgid "Data retention"
 msgstr "Data retention"
@@ -79,20 +199,35 @@ msgstr "Data security"
 msgid "Disclosure of your information"
 msgstr "Disclosure of your information"
 
-msgid "Distributed networks distributes the costs; that means you get high reliability for cheaper. Sign in via email or crypto wallet so you can maximize your privacy without sacrificing convenience."
-msgstr "Distributed networks distributes the costs; that means you get high reliability for cheaper. Sign in via email or crypto wallet so you can maximize your privacy without sacrificing convenience."
+#~ msgid "Distributed networks distributes the costs; that means you get high reliability for cheaper. Sign in via email or crypto wallet so you can maximize your privacy without sacrificing convenience."
+#~ msgstr "Distributed networks distributes the costs; that means you get high reliability for cheaper. Sign in via email or crypto wallet so you can maximize your privacy without sacrificing convenience."
+
+msgid "Due to the end-to-end encryption provided through the Service, we will not be able to provide an unencrypted version of any User Content uploaded by a third-party unless we are provided with a shared key. The only information we may be able to share would be the personal information provided to us or User Content where a key to access it has been shared with us by a third-party."
+msgstr "Due to the end-to-end encryption provided through the Service, we will not be able to provide an unencrypted version of any User Content uploaded by a third-party unless we are provided with a shared key. The only information we may be able to share would be the personal information provided to us or User Content where a key to access it has been shared with us by a third-party."
 
 msgid "Each user is responsible for their transmissions through their Files Account. As a condition of your use of the Service, you affirm that you will not use the Service for any unlawful or prohibited purpose. By registering with ChainSafe Files, you agree to be bound by the terms outlined here. If your conduct fails to conform to these conditions, ChainSafe may, at its sole discretion, immediately terminate service without cause or notice."
 msgstr "Each user is responsible for their transmissions through their Files Account. As a condition of your use of the Service, you affirm that you will not use the Service for any unlawful or prohibited purpose. By registering with ChainSafe Files, you agree to be bound by the terms outlined here. If your conduct fails to conform to these conditions, ChainSafe may, at its sole discretion, immediately terminate service without cause or notice."
 
-msgid "Every file uploaded to ChainSafe Files is encrypted end-to-end, using AES-256 bit encryption. So you can be assured that your content is for your eyes only."
-msgstr "Every file uploaded to ChainSafe Files is encrypted end-to-end, using AES-256 bit encryption. So you can be assured that your content is for your eyes only."
+msgid "Easy to use."
+msgstr "Easy to use."
 
-msgid "Except as otherwise permitted or required by applicable law or regulation, we will only retain your personal information for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements. Under some circumstances we may anonymize your personal information so that it can no longer be associated with you. We reserve the right to use such anonymous and de-identified data for any legitimate business purpose without further notice to you or your consent."
-msgstr "Except as otherwise permitted or required by applicable law or regulation, we will only retain your personal information for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements. Under some circumstances we may anonymize your personal information so that it can no longer be associated with you. We reserve the right to use such anonymous and de-identified data for any legitimate business purpose without further notice to you or your consent."
+msgid "Equal parts privacy and convenience."
+msgstr "Equal parts privacy and convenience."
+
+#~ msgid "Every file uploaded to ChainSafe Files is encrypted end-to-end, using AES-256 bit encryption. So you can be assured that your content is for your eyes only."
+#~ msgstr "Every file uploaded to ChainSafe Files is encrypted end-to-end, using AES-256 bit encryption. So you can be assured that your content is for your eyes only."
+
+#~ msgid "Except as otherwise permitted or required by applicable law or regulation, we will only retain your personal information for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements. Under some circumstances we may anonymize your personal information so that it can no longer be associated with you. We reserve the right to use such anonymous and de-identified data for any legitimate business purpose without further notice to you or your consent."
+#~ msgstr "Except as otherwise permitted or required by applicable law or regulation, we will only retain your personal information for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements. Under some circumstances we may anonymize your personal information so that it can no longer be associated with you. We reserve the right to use such anonymous and de-identified data for any legitimate business purpose without further notice to you or your consent."
+
+msgid "Files is a next-gen app that blends cloud storage with blockchain and data privacy. We’re leveraging the power of the IPFS and Filecoin network to protect your stuff from data loss."
+msgstr "Files is a next-gen app that blends cloud storage with blockchain and data privacy. We’re leveraging the power of the IPFS and Filecoin network to protect your stuff from data loss."
 
 msgid "Files is an advertising-free platform. Third-party involvement is limited to facilitating the service and your connectivity to it – for example, using OAuth to log into your Files account, or providing financial information to pay for the service. The Company is not responsible for any handling of data or cookies used by third parties in facilitating the Service."
 msgstr "Files is an advertising-free platform. Third-party involvement is limited to facilitating the service and your connectivity to it – for example, using OAuth to log into your Files account, or providing financial information to pay for the service. The Company is not responsible for any handling of data or cookies used by third parties in facilitating the Service."
+
+msgid "For any other purpose with your consent and as otherwise outlined in our Terms."
+msgstr "For any other purpose with your consent and as otherwise outlined in our Terms."
 
 msgid "For payments made with cryptocurrency, we are not responsible for payments made to the wrong crypto address. We cannot reverse any transaction which has been broadcasted to the provided blockchain network. Should you want to purchase a plan with cryptocurrency, you will be required to pay the annual, rather than monthly, subscription fee."
 msgstr "For payments made with cryptocurrency, we are not responsible for payments made to the wrong crypto address. We cannot reverse any transaction which has been broadcasted to the provided blockchain network. Should you want to purchase a plan with cryptocurrency, you will be required to pay the annual, rather than monthly, subscription fee."
@@ -100,83 +235,152 @@ msgstr "For payments made with cryptocurrency, we are not responsible for paymen
 msgid "Github"
 msgstr "Github"
 
+msgid "Go to ChainSafe Files"
+msgstr "Go to ChainSafe Files"
+
 msgid "Hello! Here are the terms and conditions for use of ChainSafe Files (“Files”), its features collectively referred to as the “Service”. This Service is provided to persons who are over the age of 13. As used in these terms of service, “ChainSafe”, “We”, and the “Company” mean ChainSafe Systems, while “you” refers to you, the user or Account holder.."
 msgstr "Hello! Here are the terms and conditions for use of ChainSafe Files (“Files”), its features collectively referred to as the “Service”. This Service is provided to persons who are over the age of 13. As used in these terms of service, “ChainSafe”, “We”, and the “Company” mean ChainSafe Systems, while “you” refers to you, the user or Account holder.."
 
 msgid "How we use your information"
 msgstr "How we use your information"
 
-msgid "How you agree"
-msgstr "How you agree"
+#~ msgid "How you agree"
+#~ msgstr "How you agree"
 
-msgid "INDEMNIFICATION"
-msgstr "INDEMNIFICATION"
+#~ msgid "INDEMNIFICATION"
+#~ msgstr "INDEMNIFICATION"
 
-msgid "IP"
-msgstr "IP"
+#~ msgid "IP"
+#~ msgstr "IP"
 
 msgid "If there is any indication that you are using your account for illegal activity, your account will be terminated immediately without notice. Activities that are absolutely not tolerated include the storage, possession or distribution of child pornography, terrorist activity, and of any material that is illegal, fraudulent or threatening in relevant jurisdictions."
 msgstr "If there is any indication that you are using your account for illegal activity, your account will be terminated immediately without notice. Activities that are absolutely not tolerated include the storage, possession or distribution of child pornography, terrorist activity, and of any material that is illegal, fraudulent or threatening in relevant jurisdictions."
 
-msgid "If you are concerned about our response or would like to correct the information provided, you may contact us at <0>support@chainsafe.io</0>."
-msgstr "If you are concerned about our response or would like to correct the information provided, you may contact us at <0>support@chainsafe.io</0>."
+#~ msgid "If you are concerned about our response or would like to correct the information provided, you may contact us at <0>support@chainsafe.io</0>."
+#~ msgstr "If you are concerned about our response or would like to correct the information provided, you may contact us at <0>support@chainsafe.io</0>."
 
-msgid "In most cases, we collect information about you when you give it to us directly. For example, when you create an account or register for/purchase our services. Also, like many websites and technologies, we automatically collect technical data when you visit and interact with the Website and ChainSafe Files."
-msgstr "In most cases, we collect information about you when you give it to us directly. For example, when you create an account or register for/purchase our services. Also, like many websites and technologies, we automatically collect technical data when you visit and interact with the Website and ChainSafe Files."
+msgid "If you have any questions, comments, or requests regarding this Privacy Policy or our privacy practices, please contact us at:"
+msgstr "If you have any questions, comments, or requests regarding this Privacy Policy or our privacy practices, please contact us at:"
 
-msgid "It is important that the personal information we hold about you is accurate and current. If any personal information material to your account(s) with us changes, please let us know. By law you have the right to request access to and to correct the personal information that we possess that is linked to you."
-msgstr "It is important that the personal information we hold about you is accurate and current. If any personal information material to your account(s) with us changes, please let us know. By law you have the right to request access to and to correct the personal information that we possess that is linked to you."
+msgid "If you would like to exercise any of the following rights, please contact us at our email below:"
+msgstr "If you would like to exercise any of the following rights, please contact us at our email below:"
 
-msgid "It is our policy to post any changes we make to our privacy policy on this page, with a notice that the privacy policy has been updated on the Website home page. If we make material changes to how we treat our users' personal information, we will notify you through a notice on the Website home page."
-msgstr "It is our policy to post any changes we make to our privacy policy on this page, with a notice that the privacy policy has been updated on the Website home page. If we make material changes to how we treat our users' personal information, we will notify you through a notice on the Website home page."
+#~ msgid "In most cases, we collect information about you when you give it to us directly. For example, when you create an account or register for/purchase our services. Also, like many websites and technologies, we automatically collect technical data when you visit and interact with the Website and ChainSafe Files."
+#~ msgstr "In most cases, we collect information about you when you give it to us directly. For example, when you create an account or register for/purchase our services. Also, like many websites and technologies, we automatically collect technical data when you visit and interact with the Website and ChainSafe Files."
 
-msgid "LIMITATION OF LIABILITY"
-msgstr "LIMITATION OF LIABILITY"
+msgid "Indemnificaiton"
+msgstr "Indemnificaiton"
 
-msgid "Last Modified: December 8, 2020"
-msgstr "Last Modified: December 8, 2020"
+msgid "Intellectual Property"
+msgstr "Intellectual Property"
+
+#~ msgid "It is important that the personal information we hold about you is accurate and current. If any personal information material to your account(s) with us changes, please let us know. By law you have the right to request access to and to correct the personal information that we possess that is linked to you."
+#~ msgstr "It is important that the personal information we hold about you is accurate and current. If any personal information material to your account(s) with us changes, please let us know. By law you have the right to request access to and to correct the personal information that we possess that is linked to you."
+
+#~ msgid "It is our policy to post any changes we make to our privacy policy on this page, with a notice that the privacy policy has been updated on the Website home page. If we make material changes to how we treat our users' personal information, we will notify you through a notice on the Website home page."
+#~ msgstr "It is our policy to post any changes we make to our privacy policy on this page, with a notice that the privacy policy has been updated on the Website home page. If we make material changes to how we treat our users' personal information, we will notify you through a notice on the Website home page."
+
+#~ msgid "LIMITATION OF LIABILITY"
+#~ msgstr "LIMITATION OF LIABILITY"
+
+#~ msgid "Last Modified: December 8, 2020"
+#~ msgstr "Last Modified: December 8, 2020"
 
 msgid "Last Modified: March 15 2021"
 msgstr "Last Modified: March 15 2021"
 
+msgid "Last modified: April 28, 2021"
+msgstr "Last modified: April 28, 2021"
+
 msgid "Launch App"
 msgstr "Launch App"
 
-msgid "MODIFICATIONS TO TERMS OF SERVICE, MEMBER POLICIES"
-msgstr "MODIFICATIONS TO TERMS OF SERVICE, MEMBER POLICIES"
+msgid "Limitation of Liability"
+msgstr "Limitation of Liability"
 
-msgid "Our Website and Services are not intended for children under 13 years of age. No one under age 13 may provide any personal information on the Website. We do not knowingly collect personal information from children under 13. If you are under 13, do not use or provide any information on this Website or any of its features, make any purchases through the Website, use any of the interactive or public comment features of this Website, or provide any information about yourself to us. If we learn we have collected or received personal information from a child under 13, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at the contact information below."
-msgstr "Our Website and Services are not intended for children under 13 years of age. No one under age 13 may provide any personal information on the Website. We do not knowingly collect personal information from children under 13. If you are under 13, do not use or provide any information on this Website or any of its features, make any purchases through the Website, use any of the interactive or public comment features of this Website, or provide any information about yourself to us. If we learn we have collected or received personal information from a child under 13, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at the contact information below."
+#~ msgid "MODIFICATIONS TO TERMS OF SERVICE, MEMBER POLICIES"
+#~ msgstr "MODIFICATIONS TO TERMS OF SERVICE, MEMBER POLICIES"
 
-msgid "Our policy is to collect as little user information as possible. We have limited access to your uploaded content because it is all encrypted end-to-end. We may collect user information that is necessary for us to provide you the service. The type of information we collect about you will depend. We may collect:"
-msgstr "Our policy is to collect as little user information as possible. We have limited access to your uploaded content because it is all encrypted end-to-end. We may collect user information that is necessary for us to provide you the service. The type of information we collect about you will depend. We may collect:"
+msgid "Modifications to Terms of Service, Member Policies"
+msgstr "Modifications to Terms of Service, Member Policies"
 
-msgid "Our service allows users to conveniently manage files without compromising privacy concerns. Any content uploaded to ChainSafe Files is encrypted both in transit and when stored on Filecoin storage mining nodes. Most importantly, uploaded content is owned by the uploader; we do not sell uploaded content to third-parties. Users may upload files pseudonymously by registering an account using an Ethereum address."
-msgstr "Our service allows users to conveniently manage files without compromising privacy concerns. Any content uploaded to ChainSafe Files is encrypted both in transit and when stored on Filecoin storage mining nodes. Most importantly, uploaded content is owned by the uploader; we do not sell uploaded content to third-parties. Users may upload files pseudonymously by registering an account using an Ethereum address."
+msgid "Next gen."
+msgstr "Next gen."
+
+msgid "Not in the business of tracking you and selling your data."
+msgstr "Not in the business of tracking you and selling your data."
+
+msgid "Opting-Out of Communications"
+msgstr "Opting-Out of Communications"
+
+#~ msgid "Our Website and Services are not intended for children under 13 years of age. No one under age 13 may provide any personal information on the Website. We do not knowingly collect personal information from children under 13. If you are under 13, do not use or provide any information on this Website or any of its features, make any purchases through the Website, use any of the interactive or public comment features of this Website, or provide any information about yourself to us. If we learn we have collected or received personal information from a child under 13, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at the contact information below."
+#~ msgstr "Our Website and Services are not intended for children under 13 years of age. No one under age 13 may provide any personal information on the Website. We do not knowingly collect personal information from children under 13. If you are under 13, do not use or provide any information on this Website or any of its features, make any purchases through the Website, use any of the interactive or public comment features of this Website, or provide any information about yourself to us. If we learn we have collected or received personal information from a child under 13, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at the contact information below."
+
+#~ msgid "Our policy is to collect as little user information as possible. We have limited access to your uploaded content because it is all encrypted end-to-end. We may collect user information that is necessary for us to provide you the service. The type of information we collect about you will depend. We may collect:"
+#~ msgstr "Our policy is to collect as little user information as possible. We have limited access to your uploaded content because it is all encrypted end-to-end. We may collect user information that is necessary for us to provide you the service. The type of information we collect about you will depend. We may collect:"
+
+#~ msgid "Our service allows users to conveniently manage files without compromising privacy concerns. Any content uploaded to ChainSafe Files is encrypted both in transit and when stored on Filecoin storage mining nodes. Most importantly, uploaded content is owned by the uploader; we do not sell uploaded content to third-parties. Users may upload files pseudonymously by registering an account using an Ethereum address."
+#~ msgstr "Our service allows users to conveniently manage files without compromising privacy concerns. Any content uploaded to ChainSafe Files is encrypted both in transit and when stored on Filecoin storage mining nodes. Most importantly, uploaded content is owned by the uploader; we do not sell uploaded content to third-parties. Users may upload files pseudonymously by registering an account using an Ethereum address."
+
+msgid "Personal information we (directly) collect"
+msgstr "Personal information we (directly) collect"
+
+msgid "Personal information we (indirectly) collect"
+msgstr "Personal information we (indirectly) collect"
+
+msgid "Powered by peer-to-peer."
+msgstr "Powered by peer-to-peer."
+
+msgid "Preview your stuff. Access it from any device. Organize folders. And much more coming soon. <0>✨</0>"
+msgstr "Preview your stuff. Access it from any device. Organize folders. And much more coming soon. <0>✨</0>"
 
 msgid "Privacy Policy"
 msgstr "Privacy Policy"
 
-msgid "Privacy-first cloud storage just got"
-msgstr "Privacy-first cloud storage just got"
+#~ msgid "Privacy-first cloud storage just got"
+#~ msgstr "Privacy-first cloud storage just got"
 
 msgid "Product"
 msgstr "Product"
 
-msgid "STORAGE LIMITATIONS"
-msgstr "STORAGE LIMITATIONS"
+msgid "Provide us with your name, email address or other identifying information."
+msgstr "Provide us with your name, email address or other identifying information."
 
-msgid "SUBSCRIPTION TYPES AND PAYMENT TERMS"
-msgstr "SUBSCRIPTION TYPES AND PAYMENT TERMS"
+#~ msgid "STORAGE LIMITATIONS"
+#~ msgstr "STORAGE LIMITATIONS"
 
-msgid "Sometimes, we may disclose aggregated information about our users, and information that does not identify any individual."
-msgstr "Sometimes, we may disclose aggregated information about our users, and information that does not identify any individual."
+#~ msgid "SUBSCRIPTION TYPES AND PAYMENT TERMS"
+#~ msgstr "SUBSCRIPTION TYPES AND PAYMENT TERMS"
 
-msgid "Strong security meets simple experience."
-msgstr "Strong security meets simple experience."
+msgid "Secure."
+msgstr "Secure."
 
-msgid "THIRD PARTIES, ADVERTISEMENTS, AND PROMOTIONS"
-msgstr "THIRD PARTIES, ADVERTISEMENTS, AND PROMOTIONS"
+msgid "Self-reliance with account recovery."
+msgstr "Self-reliance with account recovery."
+
+msgid "Sign in however you want."
+msgstr "Sign in however you want."
+
+msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever."
+msgstr "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet. No emails required, ever."
+
+#~ msgid "Sometimes, we may disclose aggregated information about our users, and information that does not identify any individual."
+#~ msgstr "Sometimes, we may disclose aggregated information about our users, and information that does not identify any individual."
+
+msgid "Storage Limitations"
+msgstr "Storage Limitations"
+
+#~ msgid "Strong security meets simple experience."
+#~ msgstr "Strong security meets simple experience."
+
+msgid "Subscription Types and Payment Terms"
+msgstr "Subscription Types and Payment Terms"
+
+msgid "Support"
+msgstr "Support"
+
+#~ msgid "THIRD PARTIES, ADVERTISEMENTS, AND PROMOTIONS"
+#~ msgstr "THIRD PARTIES, ADVERTISEMENTS, AND PROMOTIONS"
 
 msgid "Terms of Service"
 msgstr "Terms of Service"
@@ -190,92 +394,179 @@ msgstr "The Company does not own or control the Filecoin Network or the underlyi
 msgid "The Company reserves the right to review and change this agreement regarding the use of the Service at any time and to notify you by posting an updated version of the agreement on this Website. Continued use of the Service after any such changes shall constitute your consent to such changes."
 msgstr "The Company reserves the right to review and change this agreement regarding the use of the Service at any time and to notify you by posting an updated version of the agreement on this Website. Continued use of the Service after any such changes shall constitute your consent to such changes."
 
+msgid "The Service is not intended for children under thirteen (13) years of age. We do not knowingly collect personal information from children under thirteen (13) years of age. If you are under eighteen (18) years of age, we must receive your parent or legal guardian’s consent before we can collect, use or disclose your information on the Service. If we learn we have collected or received personal information from a child without verification of parental consent, we will delete that information. If you (i) believe we might have any information from or about a child; (ii) would like to review any personal information we may have collected about your child; or (iii) would like to request the deletion of your child’s personal information, please contact our Privacy Officer at the email address below."
+msgstr "The Service is not intended for children under thirteen (13) years of age. We do not knowingly collect personal information from children under thirteen (13) years of age. If you are under eighteen (18) years of age, we must receive your parent or legal guardian’s consent before we can collect, use or disclose your information on the Service. If we learn we have collected or received personal information from a child without verification of parental consent, we will delete that information. If you (i) believe we might have any information from or about a child; (ii) would like to review any personal information we may have collected about your child; or (iii) would like to request the deletion of your child’s personal information, please contact our Privacy Officer at the email address below."
+
 msgid "The gist of it"
 msgstr "The gist of it"
 
-msgid "The information we collect about you"
-msgstr "The information we collect about you"
+#~ msgid "The information we collect about you"
+#~ msgstr "The information we collect about you"
 
-msgid "The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone."
-msgstr "The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone."
+#~ msgid "The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone."
+#~ msgstr "The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone."
 
-msgid "Third party use of cookies"
-msgstr "Third party use of cookies"
+msgid "Third parties, Advertisements, Promotions"
+msgstr "Third parties, Advertisements, Promotions"
 
-msgid "This Policy describes the information we may collect, the purposes for which we collect it, how we use it and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in compliance with this policy unless obligated by applicable law."
-msgstr "This Policy describes the information we may collect, the purposes for which we collect it, how we use it and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in compliance with this policy unless obligated by applicable law."
+#~ msgid "Third party use of cookies"
+#~ msgstr "Third party use of cookies"
+
+#~ msgid "This Policy describes the information we may collect, the purposes for which we collect it, how we use it and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in compliance with this policy unless obligated by applicable law."
+#~ msgstr "This Policy describes the information we may collect, the purposes for which we collect it, how we use it and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in compliance with this policy unless obligated by applicable law."
+
+msgid "This Privacy Policy describes the personal information we may collect, the reasons we collect it, how we use it, and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in accordance with this policy, unless obligated by applicable law."
+msgstr "This Privacy Policy describes the personal information we may collect, the reasons we collect it, how we use it, and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in accordance with this policy, unless obligated by applicable law."
 
 msgid "This is an internet-based service. You agree to be bound by Internet regulations, policies and procedures."
 msgstr "This is an internet-based service. You agree to be bound by Internet regulations, policies and procedures."
 
-msgid "Transferring your personal information"
-msgstr "Transferring your personal information"
+msgid "To carry out our obligations and comply with applicable law; and"
+msgstr "To carry out our obligations and comply with applicable law; and"
+
+msgid "To contact you via email, SMS, push notifications, or otherwise to provide administrative notices relevant to your use of the Service;"
+msgstr "To contact you via email, SMS, push notifications, or otherwise to provide administrative notices relevant to your use of the Service;"
+
+msgid "To enforce our Terms and other agreements, including for billing or notifying you about changes to our Service or any products or services that we offer;"
+msgstr "To enforce our Terms and other agreements, including for billing or notifying you about changes to our Service or any products or services that we offer;"
+
+msgid "To fulfill the purposes for which you provided the information or that were described when it was collected or for any other purpose for which you provide it;"
+msgstr "To fulfill the purposes for which you provided the information or that were described when it was collected or for any other purpose for which you provide it;"
+
+msgid "To notify you about changes to our Service or any products or features we offer or provide though it;"
+msgstr "To notify you about changes to our Service or any products or features we offer or provide though it;"
+
+msgid "To operate the Service and make its contents available to you. We do not monitor or track User Content except as may be required by applicable law;"
+msgstr "To operate the Service and make its contents available to you. We do not monitor or track User Content except as may be required by applicable law;"
+
+msgid "To provide you with customer support and assist with the provision of the Service, or to assist in resolving complaints or disputes relating to the Service;"
+msgstr "To provide you with customer support and assist with the provision of the Service, or to assist in resolving complaints or disputes relating to the Service;"
+
+msgid "To provide you with information, products or services that you request from us. We use your information to (i) provide you with a personalized service; (ii) facilitate payments on the Service; and (iii) communicate with you via email, text message, push notification, or otherwise;"
+msgstr "To provide you with information, products or services that you request from us. We use your information to (i) provide you with a personalized service; (ii) facilitate payments on the Service; and (iii) communicate with you via email, text message, push notification, or otherwise;"
+
+#~ msgid "Transferring your personal information"
+#~ msgstr "Transferring your personal information"
 
 msgid "Twitter"
 msgstr "Twitter"
 
-msgid "Unfortunately, the transmission of information via the Internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our Website. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained on the Website."
-msgstr "Unfortunately, the transmission of information via the Internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our Website. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained on the Website."
+#~ msgid "Unfortunately, the transmission of information via the Internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our Website. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained on the Website."
+#~ msgstr "Unfortunately, the transmission of information via the Internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our Website. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained on the Website."
 
 msgid "Unless you cancel your subscription before the end of the applicable subscription period, your subscription will automatically renew, and you authorize Stripe to collect the monthly subscription fee. Subscriptions can be cancelled at any time in your account settings. You are responsible for keeping your payment information up to date. ChainSafe has the right to discontinue service for fraudulent payments."
 msgstr "Unless you cancel your subscription before the end of the applicable subscription period, your subscription will automatically renew, and you authorize Stripe to collect the monthly subscription fee. Subscriptions can be cancelled at any time in your account settings. You are responsible for keeping your payment information up to date. ChainSafe has the right to discontinue service for fraudulent payments."
 
-msgid "Uploading and accessing your stuff is a breeze on any device, so you can make the most of your content, wherever you are."
-msgstr "Uploading and accessing your stuff is a breeze on any device, so you can make the most of your content, wherever you are."
+#~ msgid "Uploading and accessing your stuff is a breeze on any device, so you can make the most of your content, wherever you are."
+#~ msgstr "Uploading and accessing your stuff is a breeze on any device, so you can make the most of your content, wherever you are."
 
-msgid "User Contributions"
-msgstr "User Contributions"
+msgid "Use the Service to download any file, software, media or other content from it."
+msgstr "Use the Service to download any file, software, media or other content from it."
 
-msgid "We do not control these third parties' tracking technologies or how they are used. If you have any questions about targeted content, you should contact the responsible provider directly."
-msgstr "We do not control these third parties' tracking technologies or how they are used. If you have any questions about targeted content, you should contact the responsible provider directly."
+#~ msgid "User Contributions"
+#~ msgstr "User Contributions"
 
-msgid "We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as Canadian law. In these circumstances, the governments, courts, law enforcement, or regulatory agencies of that country may be able to obtain access to your personal information through the laws of the foreign country. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
-msgstr "We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as Canadian law. In these circumstances, the governments, courts, law enforcement, or regulatory agencies of that country may be able to obtain access to your personal information through the laws of the foreign country. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
+msgid "User Rights"
+msgstr "User Rights"
 
-msgid "We may request specific information from you to help us confirm your identity and your right to access, and to provide you with the personal information that we hold about you or make your requested changes. Applicable law may allow or require us to refuse to provide you with access to some or all of the personal information that we hold about you, or we may have destroyed, erased, or made your personal information anonymous in accordance with our record retention obligations and practices. If we cannot provide you with access to your personal information, we will inform you of the reasons why, subject to any legal or regulatory restrictions."
-msgstr "We may request specific information from you to help us confirm your identity and your right to access, and to provide you with the personal information that we hold about you or make your requested changes. Applicable law may allow or require us to refuse to provide you with access to some or all of the personal information that we hold about you, or we may have destroyed, erased, or made your personal information anonymous in accordance with our record retention obligations and practices. If we cannot provide you with access to your personal information, we will inform you of the reasons why, subject to any legal or regulatory restrictions."
+msgid "We also collect your personal information when you:"
+msgstr "We also collect your personal information when you:"
 
-msgid "We may share and disclose information and technical data in the following circumstances:"
-msgstr "We may share and disclose information and technical data in the following circumstances:"
+msgid "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
+msgstr "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
 
-msgid "We may transfer personal information that we collect or that you provide as described in this policy to contractors, service providers, and other third parties we use to support our business (such as analytics and search engine providers that assist us with Website improvement and optimization) and who are contractually obligated to keep personal information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
-msgstr "We may transfer personal information that we collect or that you provide as described in this policy to contractors, service providers, and other third parties we use to support our business (such as analytics and search engine providers that assist us with Website improvement and optimization) and who are contractually obligated to keep personal information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
+#~ msgid "We do not control these third parties' tracking technologies or how they are used. If you have any questions about targeted content, you should contact the responsible provider directly."
+#~ msgstr "We do not control these third parties' tracking technologies or how they are used. If you have any questions about targeted content, you should contact the responsible provider directly."
 
-msgid "We provide an opportunity for any user to unsubscribe from our services or opt-out of contact from us on an ongoing basis. Users may unsubscribe at any time on the Website."
-msgstr "We provide an opportunity for any user to unsubscribe from our services or opt-out of contact from us on an ongoing basis. Users may unsubscribe at any time on the Website."
+msgid "We don't know what you’re storing."
+msgstr "We don't know what you’re storing."
 
-msgid "We strive to provide you with choices regarding the personal information you provide to us. We have created mechanisms to provide you with the following control over your information:"
-msgstr "We strive to provide you with choices regarding the personal information you provide to us. We have created mechanisms to provide you with the following control over your information:"
+msgid "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."
+msgstr "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."
 
-msgid "We take your personal privacy interests seriously, and our services are designed with anonymity in mind. We will never sell your information to third parties, and we don’t entertain ads. We take steps to ensure that the personal information we collect is relevant and used for limited purposes."
-msgstr "We take your personal privacy interests seriously, and our services are designed with anonymity in mind. We will never sell your information to third parties, and we don’t entertain ads. We take steps to ensure that the personal information we collect is relevant and used for limited purposes."
+msgid "We include the date the privacy policy was last revised at the top of the page. You are responsible for ensuring we have an up-to-date, active, and deliverable email address for you, and for periodically visiting our Service and this Privacy Policy to check for any changes."
+msgstr "We include the date the privacy policy was last revised at the top of the page. You are responsible for ensuring we have an up-to-date, active, and deliverable email address for you, and for periodically visiting our Service and this Privacy Policy to check for any changes."
 
-msgid "We use information that we collect about you/that you provide to us for several reasons:"
-msgstr "We use information that we collect about you/that you provide to us for several reasons:"
+msgid "We may disclose the information that we collect about you or that you provide to the Service in accordance with this Privacy Policy. We may share your personal information with third-parties for the following reasons:"
+msgstr "We may disclose the information that we collect about you or that you provide to the Service in accordance with this Privacy Policy. We may share your personal information with third-parties for the following reasons:"
 
-msgid "We use physical, electronic, and administrative measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Any payment transactions will be encrypted and handled via Stripe Inc."
-msgstr "We use physical, electronic, and administrative measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Any payment transactions will be encrypted and handled via Stripe Inc."
+msgid "We may make changes to our Privacy Policy from time to time. It is our policy to post any changes we make on this page. If we make any material changes to how we treat your personal information, we will notify you by emailing the email address specified in your account or by posting a notice about the changes on a conspicuous area of the Service."
+msgstr "We may make changes to our Privacy Policy from time to time. It is our policy to post any changes we make on this page. If we make any material changes to how we treat your personal information, we will notify you by emailing the email address specified in your account or by posting a notice about the changes on a conspicuous area of the Service."
 
-msgid "We welcome your questions, comments, and requests regarding this privacy policy and our privacy practices. Please contact us at: <0>support@chainsafe.io</0>."
-msgstr "We welcome your questions, comments, and requests regarding this privacy policy and our privacy practices. Please contact us at: <0>support@chainsafe.io</0>."
+msgid "We may need to collect some personal information to provide the Service to you in a secure and safe manner. Our collection and use of your personal information will be limited to that which is necessary to provide you with a tailored experience."
+msgstr "We may need to collect some personal information to provide the Service to you in a secure and safe manner. Our collection and use of your personal information will be limited to that which is necessary to provide you with a tailored experience."
 
-msgid "We will provide access to your personal information, subject to exceptions set out in applicable privacy legislation. Examples of such exceptions include:"
-msgstr "We will provide access to your personal information, subject to exceptions set out in applicable privacy legislation. Examples of such exceptions include:"
+msgid "We may periodically de-identify or delete personal information from inactive user accounts and unnecessary information that is flagged by our system. With the exception of aggregated or anonymized data, we will delete unnecessary or unused personal informational after two (2) years of inactivity on the Service."
+msgstr "We may periodically de-identify or delete personal information from inactive user accounts and unnecessary information that is flagged by our system. With the exception of aggregated or anonymized data, we will delete unnecessary or unused personal informational after two (2) years of inactivity on the Service."
 
-msgid "Welcome! Here at ChainSafe Systems (“ChainSafe”) we respect your privacy and are committed to protecting it. This Privacy Policy (“policy”) describes:"
-msgstr "Welcome! Here at ChainSafe Systems (“ChainSafe”) we respect your privacy and are committed to protecting it. This Privacy Policy (“policy”) describes:"
+#~ msgid "We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as Canadian law. In these circumstances, the governments, courts, law enforcement, or regulatory agencies of that country may be able to obtain access to your personal information through the laws of the foreign country. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
+#~ msgstr "We may process, store, and transfer your personal information in and to a foreign country, with different privacy laws that may or may not be as comprehensive as Canadian law. In these circumstances, the governments, courts, law enforcement, or regulatory agencies of that country may be able to obtain access to your personal information through the laws of the foreign country. Whenever we engage a service provider, we require that its privacy and security standards adhere to this policy and applicable Canadian privacy legislation."
+
+#~ msgid "We may request specific information from you to help us confirm your identity and your right to access, and to provide you with the personal information that we hold about you or make your requested changes. Applicable law may allow or require us to refuse to provide you with access to some or all of the personal information that we hold about you, or we may have destroyed, erased, or made your personal information anonymous in accordance with our record retention obligations and practices. If we cannot provide you with access to your personal information, we will inform you of the reasons why, subject to any legal or regulatory restrictions."
+#~ msgstr "We may request specific information from you to help us confirm your identity and your right to access, and to provide you with the personal information that we hold about you or make your requested changes. Applicable law may allow or require us to refuse to provide you with access to some or all of the personal information that we hold about you, or we may have destroyed, erased, or made your personal information anonymous in accordance with our record retention obligations and practices. If we cannot provide you with access to your personal information, we will inform you of the reasons why, subject to any legal or regulatory restrictions."
+
+msgid "We may send periodic marketing, promotional or informational emails to you in accordance with your communication preferences. These may include emails for future events and products. You may opt out of such communications at any time by following the opt-out instructions contained in the email or by contacting us at the email below."
+msgstr "We may send periodic marketing, promotional or informational emails to you in accordance with your communication preferences. These may include emails for future events and products. You may opt out of such communications at any time by following the opt-out instructions contained in the email or by contacting us at the email below."
+
+#~ msgid "We may share and disclose information and technical data in the following circumstances:"
+#~ msgstr "We may share and disclose information and technical data in the following circumstances:"
+
+#~ msgid "We may transfer personal information that we collect or that you provide as described in this policy to contractors, service providers, and other third parties we use to support our business (such as analytics and search engine providers that assist us with Website improvement and optimization) and who are contractually obligated to keep personal information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
+#~ msgstr "We may transfer personal information that we collect or that you provide as described in this policy to contractors, service providers, and other third parties we use to support our business (such as analytics and search engine providers that assist us with Website improvement and optimization) and who are contractually obligated to keep personal information confidential, use it only for the purposes for which we disclose it to them, and to process the personal information with the same standards set out in this policy."
+
+msgid "We only collect what is minimally necessary to provide our service to you. We promise not to change that."
+msgstr "We only collect what is minimally necessary to provide our service to you. We promise not to change that."
+
+#~ msgid "We provide an opportunity for any user to unsubscribe from our services or opt-out of contact from us on an ongoing basis. Users may unsubscribe at any time on the Website."
+#~ msgstr "We provide an opportunity for any user to unsubscribe from our services or opt-out of contact from us on an ongoing basis. Users may unsubscribe at any time on the Website."
+
+#~ msgid "We strive to provide you with choices regarding the personal information you provide to us. We have created mechanisms to provide you with the following control over your information:"
+#~ msgstr "We strive to provide you with choices regarding the personal information you provide to us. We have created mechanisms to provide you with the following control over your information:"
+
+msgid "We take steps to ensure that the personal information that we collect about you is adequate, relevant, minimal, and used for limited purposes. By accessing the Service, you confirm that you have read and understand our Terms of Service (the “Terms”), found here, and this Privacy Policy. Any capitalized term not defined in this Privacy Policy is incorporated by reference from our Terms."
+msgstr "We take steps to ensure that the personal information that we collect about you is adequate, relevant, minimal, and used for limited purposes. By accessing the Service, you confirm that you have read and understand our Terms of Service (the “Terms”), found here, and this Privacy Policy. Any capitalized term not defined in this Privacy Policy is incorporated by reference from our Terms."
+
+#~ msgid "We take your personal privacy interests seriously, and our services are designed with anonymity in mind. We will never sell your information to third parties, and we don’t entertain ads. We take steps to ensure that the personal information we collect is relevant and used for limited purposes."
+#~ msgstr "We take your personal privacy interests seriously, and our services are designed with anonymity in mind. We will never sell your information to third parties, and we don’t entertain ads. We take steps to ensure that the personal information we collect is relevant and used for limited purposes."
+
+#~ msgid "We use information that we collect about you/that you provide to us for several reasons:"
+#~ msgstr "We use information that we collect about you/that you provide to us for several reasons:"
+
+#~ msgid "We use physical, electronic, and administrative measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Any payment transactions will be encrypted and handled via Stripe Inc."
+#~ msgstr "We use physical, electronic, and administrative measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Any payment transactions will be encrypted and handled via Stripe Inc."
+
+msgid "We use the information that we collect about you or that you provide to us through providing the Service. We may use your information:"
+msgstr "We use the information that we collect about you or that you provide to us through providing the Service. We may use your information:"
+
+#~ msgid "We welcome your questions, comments, and requests regarding this privacy policy and our privacy practices. Please contact us at: <0>support@chainsafe.io</0>."
+#~ msgstr "We welcome your questions, comments, and requests regarding this privacy policy and our privacy practices. Please contact us at: <0>support@chainsafe.io</0>."
+
+#~ msgid "We will provide access to your personal information, subject to exceptions set out in applicable privacy legislation. Examples of such exceptions include:"
+#~ msgstr "We will provide access to your personal information, subject to exceptions set out in applicable privacy legislation. Examples of such exceptions include:"
+
+#~ msgid "Welcome! Here at ChainSafe Systems (“ChainSafe”) we respect your privacy and are committed to protecting it. This Privacy Policy (“policy”) describes:"
+#~ msgstr "Welcome! Here at ChainSafe Systems (“ChainSafe”) we respect your privacy and are committed to protecting it. This Privacy Policy (“policy”) describes:"
+
+msgid "Welcome! Here at ChainSafe Systems Inc. (“ChainSafe”, “we”, “us” and similar meaning terms) we respect your privacy and are committed to protecting it. This privacy policy (“Privacy Policy”) describes how we collect, use, share and protect the personal information of our users (“you”) on ChainSafe Files (the “Service”, located at https://files.chainsafe.io)."
+msgstr "Welcome! Here at ChainSafe Systems Inc. (“ChainSafe”, “we”, “us” and similar meaning terms) we respect your privacy and are committed to protecting it. This privacy policy (“Privacy Policy”) describes how we collect, use, share and protect the personal information of our users (“you”) on ChainSafe Files (the “Service”, located at https://files.chainsafe.io)."
+
+msgid "What you want to do with your files is totally up to you.  End-to-end encryption means your content can only be seen by you."
+msgstr "What you want to do with your files is totally up to you.  End-to-end encryption means your content can only be seen by you."
 
 msgid "When/how we collect information:"
 msgstr "When/how we collect information:"
 
-msgid "Where you have provided your consent to the collection, use, and transfer of your personal information, you may have the legal right to withdraw your consent under certain circumstances. To withdraw your consent, if applicable, contact us at <0>support@chainsafe.io</0>. Please note that if you withdraw your consent we may not be able to provide you with a particular product or service."
-msgstr "Where you have provided your consent to the collection, use, and transfer of your personal information, you may have the legal right to withdraw your consent under certain circumstances. To withdraw your consent, if applicable, contact us at <0>support@chainsafe.io</0>. Please note that if you withdraw your consent we may not be able to provide you with a particular product or service."
+#~ msgid "Where you have provided your consent to the collection, use, and transfer of your personal information, you may have the legal right to withdraw your consent under certain circumstances. To withdraw your consent, if applicable, contact us at <0>support@chainsafe.io</0>. Please note that if you withdraw your consent we may not be able to provide you with a particular product or service."
+#~ msgstr "Where you have provided your consent to the collection, use, and transfer of your personal information, you may have the legal right to withdraw your consent under certain circumstances. To withdraw your consent, if applicable, contact us at <0>support@chainsafe.io</0>. Please note that if you withdraw your consent we may not be able to provide you with a particular product or service."
 
-msgid "While we do not collect cookies, third parties that are implicated or connected in the process of delivery and use of our Website or services may."
-msgstr "While we do not collect cookies, third parties that are implicated or connected in the process of delivery and use of our Website or services may."
+#~ msgid "While we do not collect cookies, third parties that are implicated or connected in the process of delivery and use of our Website or services may."
+#~ msgstr "While we do not collect cookies, third parties that are implicated or connected in the process of delivery and use of our Website or services may."
 
-msgid "Withdrawing your consent"
-msgstr "Withdrawing your consent"
+#~ msgid "Withdrawing your consent"
+#~ msgstr "Withdrawing your consent"
+
+msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
+msgstr "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
 
 msgid "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
 msgstr "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
@@ -289,26 +580,26 @@ msgstr "You agree that the Company, its officers and employees, cannot be held r
 msgid "You agree to comply with all applicable local, state, national and international laws and regulations. You also agree to not use your Files Account for illegal purposes; to not interfere or disrupt networks connected to this service; and to comply with all the rules, policies and procedures connected to this service."
 msgstr "You agree to comply with all applicable local, state, national and international laws and regulations. You also agree to not use your Files Account for illegal purposes; to not interfere or disrupt networks connected to this service; and to comply with all the rules, policies and procedures connected to this service."
 
-msgid "You are welcome to contact us to obtain further information about Company policies regarding service providers outside of Canada."
-msgstr "You are welcome to contact us to obtain further information about Company policies regarding service providers outside of Canada."
+#~ msgid "You are welcome to contact us to obtain further information about Company policies regarding service providers outside of Canada."
+#~ msgstr "You are welcome to contact us to obtain further information about Company policies regarding service providers outside of Canada."
 
-msgid "You can review and change your personal information by visiting your account."
-msgstr "You can review and change your personal information by visiting your account."
+#~ msgid "You can review and change your personal information by visiting your account."
+#~ msgstr "You can review and change your personal information by visiting your account."
 
-msgid "You may also provide information to be published or displayed (hereinafter, <0>\"posted\"</0>) on public areas of the Website or transmitted to other users of the Website or third parties (collectively, <1>\"User Contributions\"</1>). Your User Contributions are posted on and transmitted to others at your own risk. We cannot and do not guarantee that unauthorized persons will not view your User Contributions."
-msgstr "You may also provide information to be published or displayed (hereinafter, <0>\"posted\"</0>) on public areas of the Website or transmitted to other users of the Website or third parties (collectively, <1>\"User Contributions\"</1>). Your User Contributions are posted on and transmitted to others at your own risk. We cannot and do not guarantee that unauthorized persons will not view your User Contributions."
+#~ msgid "You may also provide information to be published or displayed (hereinafter, <0>\"posted\"</0>) on public areas of the Website or transmitted to other users of the Website or third parties (collectively, <1>\"User Contributions\"</1>). Your User Contributions are posted on and transmitted to others at your own risk. We cannot and do not guarantee that unauthorized persons will not view your User Contributions."
+#~ msgstr "You may also provide information to be published or displayed (hereinafter, <0>\"posted\"</0>) on public areas of the Website or transmitted to other users of the Website or third parties (collectively, <1>\"User Contributions\"</1>). Your User Contributions are posted on and transmitted to others at your own risk. We cannot and do not guarantee that unauthorized persons will not view your User Contributions."
 
-msgid "Your choices"
-msgstr "Your choices"
+#~ msgid "Your choices"
+#~ msgstr "Your choices"
 
-msgid "better"
-msgstr "better"
+#~ msgid "better"
+#~ msgstr "better"
 
-msgid "easier"
-msgstr "easier"
+#~ msgid "easier"
+#~ msgstr "easier"
 
-msgid "faster"
-msgstr "faster"
+#~ msgid "faster"
+#~ msgstr "faster"
 
-msgid "safer"
-msgstr "safer"
+#~ msgid "safer"
+#~ msgstr "safer"
