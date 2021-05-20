@@ -55,3 +55,6 @@ storybook-static
 .idea
 .env
 .DS_Store
+
+src/locales/*/messages.js
+src/locales/_build 
