@@ -36,7 +36,7 @@ const LanguageSelection = () => {
     const {redirect} = useHistory()
     const { availableLanguages, selectedLanguage, setActiveLanguage } = useLanguageContext()
     const currentLanguage = useMemo(
-      () => availableLanguages.find((land) => land.id === selectedLanguage)?.label
+      () => availableLanguages.find((lang) => lang.id === selectedLanguage)?.label
       , [availableLanguages, selectedLanguage]
     )
   
