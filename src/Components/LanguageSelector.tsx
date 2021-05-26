@@ -33,7 +33,7 @@ const useStyles = makeStyles(
 
 const LanguageSelection = () => {
     const classes = useStyles()
-    const {redirect} = useHistory()
+    const { redirect } = useHistory()
     const { availableLanguages, selectedLanguage, setActiveLanguage } = useLanguageContext()
     const currentLanguage = useMemo(
       () => availableLanguages.find((lang) => lang.id === selectedLanguage)?.label
