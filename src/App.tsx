@@ -41,10 +41,15 @@ const theme = createTheme({
   }
 })
 
+const availableLanguages = [
+  { id: "en", label: "English" },
+  { id: "fr", label: "Français" }
+]
+
 const App: React.FC<{}> = () => {
   return (
     <ThemeProvider theme={theme}>
-      <LanguageProvider availableLanguages={[{ id: "en", label: "English" }]}>
+      <LanguageProvider availableLanguages={availableLanguages}>
         <CssBaseline />
         <Router>
           <Routes />

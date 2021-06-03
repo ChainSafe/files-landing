@@ -34,7 +34,7 @@
     "build": "yarn compile && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "extract": "lingui extract",
+    "extract": "lingui extract --clean",
     "compile": "lingui compile",
     "clean:dependencies": "rm -rf ./node_modules",
     "clean:dist": "rm -rf ./dist && rm -rf ./build",

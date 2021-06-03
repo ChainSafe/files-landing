@@ -2,6 +2,7 @@ import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { Grid, Typography } from "@chainsafe/common-components"
 import { Trans } from "@lingui/macro"
+import LanguageSelection from "../LanguageSelector"
 
 const useStyles = makeStyles(
   ({ breakpoints, palette, zIndex, constants }: ITheme) => {
@@ -64,7 +65,7 @@ const NavBar: React.FC = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item justifyContent="center" alignItems="flex-end">
+        <Grid item justifyContent="flex-end" alignItems="center" flexDirection="row">
           <Typography variant="h5">
             <a
               target="_blank"
@@ -75,6 +76,7 @@ const NavBar: React.FC = () => {
               <Trans>Launch App </Trans>
             </a>
           </Typography>
+          <LanguageSelection/>
         </Grid>
       </Grid>
     </div>
