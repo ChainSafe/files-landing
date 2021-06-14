@@ -488,7 +488,7 @@ const Landing: React.FC = () => {
               </Typography>
               <Typography component="p" className={clsx(classes.bodyText, classes.lightText)}>
                 <Trans>
-                  We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management. 
+                  We made account recovery as easy as possible with multi-factor authentication and key management. 
                 </Trans>
               </Typography>
             </div>
