@@ -338,11 +338,11 @@ msgstr "Nous ne pouvons pas savoir ce que vous stockez."
 msgid "We collect personal information from you when you sign up for a User Account and when you update your User Account’s information. We may collect your personal information from third-party service providers (such as MetaMask, WalletConnect, Github and Google) that integrate with the Service."
 msgstr ""
 
-msgid "We don’t store passwords and emails; protecting your keys is your responsibility. Mistakes happen, though. That’s why we make account recovery as easy as humanly possible with threshold key management."
-msgstr ""
-
 msgid "We include the date the privacy policy was last revised at the top of the page. You are responsible for ensuring we have an up-to-date, active, and deliverable email address for you, and for periodically visiting our Service and this Privacy Policy to check for any changes."
 msgstr ""
+
+msgid "We made account recovery as easy as possible with multi-factor authentication and key management."
+msgstr "Nous avons rendu la récupération de compte et la gestion des clés de chiffrement aussi simple que possible grâce à l'authentification multifacteur."
 
 msgid "We may disclose the information that we collect about you or that you provide to the Service in accordance with this Privacy Policy. We may share your personal information with third-parties for the following reasons:"
 msgstr ""
