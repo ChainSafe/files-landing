@@ -249,7 +249,7 @@ msgid "Secure."
 msgstr "Sécurisé."
 
 msgid "Self-reliance with account recovery."
-msgstr ""
+msgstr "Autonomie avec récupération de compte."
 
 msgid "Sign in however you want."
 msgstr "Connectez-vous comme vous le souhaitez."
