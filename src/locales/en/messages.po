@@ -253,8 +253,8 @@ msgstr "Self-reliance with account recovery."
 msgid "Sign in however you want."
 msgstr "Sign in however you want."
 
-msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
-msgstr "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
+msgid "Sign up with an Ethereum wallet, email, or using your GitHub or Google account."
+msgstr "Sign up with an Ethereum wallet, email, or using your GitHub or Google account. "
 
 msgid "Storage Limitations"
 msgstr "Storage Limitations"
