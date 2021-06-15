@@ -254,8 +254,8 @@ msgstr ""
 msgid "Sign in however you want."
 msgstr "Connectez-vous comme vous le souhaitez."
 
-msgid "Sign up with your GitHub, Google or Facebook account. Or connect an Ethereum wallet."
-msgstr "Inscrivez-vous avec votre compte GitHub, Google ou Facebook. Ou connectez un portefeuille Ethereum."
+msgid "Sign up with and Ethereum wallet, an email, or using your GitHub or Google account."
+msgstr "Connectez-vous à l'aide d'un portefeuille Ethereum, un email ou avec un compte GitHub ou Google."
 
 msgid "Storage Limitations"
 msgstr ""
