@@ -453,7 +453,7 @@ const Landing: React.FC = () => {
               </Typography>
               <Typography component="p" className={classes.bodyText}>
                 <Trans>
-                  Sign up with and Ethereum wallet, an email, or using your GitHub or Google account. 
+                  Sign up with an Ethereum wallet, email, or using your GitHub or Google account. 
                 </Trans>
               </Typography>
             </div>
