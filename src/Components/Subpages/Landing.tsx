@@ -503,10 +503,10 @@ const Landing: React.FC = () => {
             <Typography variant="h4" component="h2"><Trans>A love letter to the WWW...</Trans></Typography>
             <Typography component="p" className={clsx(classes.bodyText, classes.loveLetterText)}>
               <Trans>
-              Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. 
+              Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. </Trans>
               <br></br>
               <br></br>
-              Stay tuned. We’re working with the best teams innovating software to make this a reality.
+              <Trans>Stay tuned. We’re working with the best teams innovating software to make this a reality.
             </Trans>
             </Typography>
             <Typography variant="h4" component="h3"><Trans>...From the team at ChainSafe Products</Trans></Typography>

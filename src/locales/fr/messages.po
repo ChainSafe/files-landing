@@ -257,6 +257,9 @@ msgstr "Connectez-vous comme vous le souhaitez."
 msgid "Sign up with an Ethereum wallet, email, or using your GitHub or Google account."
 msgstr "Connectez-vous à l'aide d'un portefeuille Ethereum, un email ou avec un compte GitHub ou Google."
 
+msgid "Stay tuned. We’re working with the best teams innovating software to make this a reality."
+msgstr "Restez à l’écoute. Nous travaillons avec les meilleures équipes pour en faire une réalité."
+
 msgid "Storage Limitations"
 msgstr ""
 
@@ -377,8 +380,8 @@ msgstr "Ce que vous voulez faire de vos fichiers ne regarde que vous. Le chiffre
 msgid "When/how we collect information:"
 msgstr ""
 
-msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
-msgstr "Oui, nous voulons que les gens aient la meilleure expérience en ligne sans sacrifier leur confidentialité ou leur sécurité. Mais il y a plus. Nous réinventons l’avenir des systèmes de fichiers et des cycles de vie des fichiers. Pourquoi? Parce que vous méritez de passer moins de temps à télécharger ici, à télécharger là-bas et à mélanger des éléments d'une plate-forme à l'autre. Nous allons rendre incroyablement facile la connexion de tout votre contenu en toute sécurité. Sans vous forcer sur une seule plateforme. <0 /> <1 /> Restez à l’écoute. Nous travaillons avec les meilleures équipes pour en faire une réalité."
+msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform."
+msgstr "Oui, nous voulons que les gens aient la meilleure expérience en ligne sans sacrifier leur confidentialité ou leur sécurité. Mais il y a plus. Nous réinventons l’avenir des systèmes de fichiers et des cycles de vie des fichiers. Pourquoi? Parce que vous méritez de passer moins de temps à télécharger ici, à télécharger là-bas et à mélanger des éléments d'une plate-forme à l'autre. Nous allons rendre incroyablement facile la connexion de tout votre contenu en toute sécurité. Sans vous forcer sur une seule plateforme."
 
 msgid "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
 msgstr ""

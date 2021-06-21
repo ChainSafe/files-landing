@@ -256,6 +256,9 @@ msgstr "Sign in however you want."
 msgid "Sign up with an Ethereum wallet, email, or using your GitHub or Google account."
 msgstr "Sign up with an Ethereum wallet, email, or using your GitHub or Google account. "
 
+msgid "Stay tuned. We’re working with the best teams innovating software to make this a reality."
+msgstr "Stay tuned. We’re working with the best teams innovating software to make this a reality."
+
 msgid "Storage Limitations"
 msgstr "Storage Limitations"
 
@@ -376,8 +379,8 @@ msgstr "What you want to do with your files is totally up to you.  End-to-end en
 msgid "When/how we collect information:"
 msgstr "When/how we collect information:"
 
-msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
-msgstr "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform. <0/><1/>Stay tuned. We’re working with the best teams innovating software to make this a reality."
+msgid "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform."
+msgstr "Yes, we want people to have the best experience online without sacrificing their privacy or security. But there’s more. We’re reimagining the future of file systems and file lifecycles.   Why? Because you deserve to spend less time uploading here, downloading there, and shuffling stuff from platform to platform.  We’re going to make it incredibly easy to connect all your content securely. Without forcing you onto a single platform."
 
 msgid "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
 msgstr "You agree not to store any objectionable material including, but not limited to, unlawful or harassing, libelous, abusive, threatening, harmful, vulgar or obscene material that constitutes or encourages conduct that could constitute a criminal offence, give rise to civil liability or otherwise violate items discussed in #2 above."
