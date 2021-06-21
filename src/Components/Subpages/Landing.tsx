@@ -488,7 +488,7 @@ const Landing: React.FC = () => {
               </Typography>
               <Typography component="p" className={clsx(classes.bodyText, classes.lightText)}>
                 <Trans>
-                  We made account recovery as easy as possible with multi-factor authentication and decentralized  key management. 
+                  We made account recovery as easy as possible with multi-factor authentication and decentralized key management. 
                 </Trans>
               </Typography>
             </div>
