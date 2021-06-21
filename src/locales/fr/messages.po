@@ -254,8 +254,8 @@ msgstr "Autonomie avec récupération de compte."
 msgid "Sign in however you want."
 msgstr "Connectez-vous comme vous le souhaitez."
 
-msgid "Sign up with an Ethereum wallet, email, or using your GitHub or Google account. "
-msgstr "Connectez-vous à l'aide d'un portefeuille Ethereum, un email ou avec un compte GitHub ou Google."
+msgid "Sign up with an Ethereum wallet, email, or using your GitHub or Google account."
+msgstr ""
 
 msgid "Storage Limitations"
 msgstr ""
@@ -341,8 +341,8 @@ msgstr ""
 msgid "We include the date the privacy policy was last revised at the top of the page. You are responsible for ensuring we have an up-to-date, active, and deliverable email address for you, and for periodically visiting our Service and this Privacy Policy to check for any changes."
 msgstr ""
 
-msgid "We made account recovery as easy as possible with multi-factor authentication and key management."
-msgstr "Nous avons rendu la récupération de compte et la gestion des clés de chiffrement aussi simple que possible grâce à l'authentification multifacteur."
+msgid "We made account recovery as easy as possible with multi-factor authentication and decentralized  key management."
+msgstr ""
 
 msgid "We may disclose the information that we collect about you or that you provide to the Service in accordance with this Privacy Policy. We may share your personal information with third-parties for the following reasons:"
 msgstr ""
