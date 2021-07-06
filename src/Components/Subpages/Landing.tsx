@@ -391,7 +391,7 @@ const Landing: React.FC = () => {
               <img src="/assets/sound.png" alt="Audio file soundwaves"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="/assets/lotus.gif" alt="Lotus field"/>
+              <img src="/assets/lotus.png" alt="Lotus field"/>
             </div>
             <div className={classes.gifThumbnail}>
               <img src="/assets/rock.png" alt="stone with glitch effect"/>
@@ -411,7 +411,7 @@ const Landing: React.FC = () => {
               <img src="/assets/hash.png" alt="Hash"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="/assets/snow.gif" alt="Snowboarding gopro footage"/>
+              <img src="/assets/snowboard.png" alt="Snowboarding gopro footage"/>
             </div>
             </div>
           </div>
