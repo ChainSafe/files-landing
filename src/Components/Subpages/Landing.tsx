@@ -375,7 +375,7 @@ const Landing: React.FC = () => {
           <a href="https://app.files.chainsafe.io/" className={classes.headerLink}>
             <Trans>Go to ChainSafe Files</Trans>
           </a>
-          <img src="https://ipfs.io/ipfs/Qme3KJXBrm64de4YwxRb8TtwpFRrjSA4w71eRrCfHxfTL9" alt="ChainSafe Files interface"/>
+          <img src="/assets/hero.png" alt="ChainSafe Files interface"/>
         </div>
       </header>
       <main className={classes.bodyContainer}>
@@ -385,16 +385,16 @@ const Landing: React.FC = () => {
           <div className={classes.gifThumbnailContainer}>
             <div className={classes.gifGrid}>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmXuGFpuViT5gC9w1y3D9GRb1cDsB6pWENrCr6A4suttx6" alt="Montecarlo Data visualization"/>
+              <img src="/assets/monte.png" alt="Montecarlo Data visualization"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmeVbtNb63sXN8rFVr1Q9Zqz8vWkTbLyw7UoPqTpNCcwaN" alt="Audio file soundwaves"/>
+              <img src="/assets/sound.png" alt="Audio file soundwaves"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmQa7LmSdj2TTwWfaRBLKAUj99iTw99SY3eQQAgbmNoMVt" alt="Lotus field"/>
+              <img src="/assets/lotus.png" alt="Lotus field"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmTtNGR9gox1qKof8CmShXTcFsGz4pCPfS36tzDV2YgGSt" alt="stone with glitch effect"/>
+              <img src="/assets/rock.png" alt="stone with glitch effect"/>
             </div>
             </div>
             <div className={classes.singleColContainer}>
@@ -402,16 +402,16 @@ const Landing: React.FC = () => {
             </div>
             <div className={classes.gifGrid}>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmeALyiE8z3UJLWHukEck85mCxDNMhFwH8R5PzhsW8KU7F" alt="Ebook excerpt"/>
+              <img src="/assets/book.png" alt="Ebook excerpt"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmZFVUfSJ9bQc1nHSJC37VwMBKLP1wf5vc8aTwhKppMKew" alt="Holographic bubble render"/>
+              <img src="/assets/bubble.png" alt="Holographic bubble render"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/QmdcfJ6hZa1shRSwE983wXgsR1gBtLhJcsoZLrvTN1pyGv" alt="Hash"/>
+              <img src="/assets/hash.png" alt="Hash"/>
             </div>
             <div className={classes.gifThumbnail}>
-              <img src="https://ipfs.io/ipfs/Qme6mkESRhXX1TK1vbweC6kMoLHfDxhxizhwfKi6daDEtA" alt="Snowboarding gopro footage"/>
+              <img src="/assets/snowboard.png" alt="Snowboarding gopro footage"/>
             </div>
             </div>
           </div>
@@ -498,7 +498,7 @@ const Landing: React.FC = () => {
       {/* To WWW, from ChainSafe */}
       <div className={classes.loveLetterContainer}>
         <div className={classes.loveLetterContentContainer}>
-          <img className={classes.loveLetterImg} src="https://ipfs.io/ipfs/QmNfpVmBbt7MfLrwHDvfzzeJK5vnCa9GnnLngvoFmZTqbW" alt="ChainSafe Logo on black background"/>
+          <img className={classes.loveLetterImg} src="/assets/logo.png" alt="ChainSafe Logo on black background"/>
           <div className={clsx(classes.bodyTextWrapper, classes.flexDirectionColumn, classes.loveLetterTextWrapper)}>
             <Typography variant="h4" component="h2"><Trans>A love letter to the WWW...</Trans></Typography>
             <Typography component="p" className={clsx(classes.bodyText, classes.loveLetterText)}>
