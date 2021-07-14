@@ -152,7 +152,7 @@ const Footer: React.FC = () => {
             </Grid>
             <Grid item className={classes.item}>
               <a
-                href="https://github.com/ChainSafe/files-ui"
+                href="https://github.com/ChainSafe/ui-monorepo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
