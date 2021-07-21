@@ -524,7 +524,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            Except where such exclusions are prohibited by applicable law, under no circumstance will ChainSafe nor its subsidiaries, affiliates or their respective directors, officers, employees, agents, service providers, contractors, licensors, licensees, suppliers, or successors be liable for negligence, gross negligence, negligent misrepresentation, fundamental breach, damages of any kind, under any legal theory, including any direct, indirect, special, incidental, consequential, or punitive damages relating to your use of the Service. This includes any of the foregoing resulting from, but not being limited to, intellectual property infringement, violation of privacy rights, inaccuracy of the content provided by the Service, emotional distress, loss of revenue, loss of profits, loss of business or anticipated savings, loss of use, loss of goodwill, loss of data, and whether caused by tort, breach of contract, breach of privacy, or otherwise, even if you were allegedly advised or had reason to know. ChainSafe will also not be liable for any damages arising out of or in connection with your use, inability to use, or reliance on the Service, its content, or any information thereon even if you were allegedly advised or had reason to know.
+            In no event shall the aggregate liability of ChainSafe, whether in contract, warranty, tort, product liability, or any other legal theory, arising out of or relating to the access or use of the Service exceed any amount paid by you during the three (3)months before the date of any claim.
           </Trans>
         </Typography>
         <Typography
