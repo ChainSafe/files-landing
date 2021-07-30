@@ -33,7 +33,13 @@ const useStyles = makeStyles(
           paddingTop: constants.generalUnit * 5,
         },
         paddingTop: constants.generalUnit * 10,
-      }
+      },
+      "&:last-of-type":{
+        [breakpoints.down(960)]:{
+          paddingBottom: constants.generalUnit * 5,
+        },
+        paddingBottom: constants.generalUnit * 10,
+      },
     },
     imgContainer: {
       [breakpoints.up('999')]: {
@@ -139,7 +145,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                    We believe autonomy and privacy go hand-in-hand. Using Files, you hold the keys.  Learn how you can always access your files even if our app goes down.
+                    We believe autonomy and privacy go hand-in-hand. Using Files, you hold the keys.
                   </Trans>
                 </strong>
               </p>

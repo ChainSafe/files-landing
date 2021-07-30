@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import NavBar from "../Modules/NavBar"
-import Landing from "../Subpages/Landing"
+import GridThumbnails from "../Subpages/GridThumbnails"
 import Footer from "../Modules/Footer"
 import { useParams } from "@chainsafe/common-components"
 import { useLanguageContext } from "../../LanguageContext"
@@ -27,6 +27,7 @@ const HomePage: React.FC = () => {
       <NavBar />
       <Hero />
       <FeaturesList/>
+      <GridThumbnails/>
       {/* <Footer /> */}
     </div>
   )
