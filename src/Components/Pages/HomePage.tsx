@@ -24,11 +24,11 @@ const HomePage: React.FC = () => {
   )
   return (
     <div>
-      <NavBar />
+      <NavBar /> 
       <Hero />
       <FeaturesList/>
       <GridThumbnails/>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

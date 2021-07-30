@@ -1,6 +1,6 @@
 import React from "react";
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme";
-import {Button, Typography} from "@chainsafe/common-components";
+import {Typography} from "@chainsafe/common-components";
 import clsx from "clsx";
 import { Trans } from "@lingui/macro";
 

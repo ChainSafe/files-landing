@@ -9,6 +9,7 @@ const theme = createTheme({
   globalStyling: {
     body: {
       backgroundColor: "#0f0f0f",
+      overflowX: "hidden",
     },
   },
   themeConfig: {

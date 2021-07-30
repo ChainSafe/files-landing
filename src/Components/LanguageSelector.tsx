@@ -63,7 +63,7 @@ const LanguageSelection = () => {
                     redirect(ROUTE_LINKS.HomeLang(lang.id))
                 }
             }))}
-            title={"Language"}
+            title={currentLanguage}
         />
     )
   }

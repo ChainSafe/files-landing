@@ -1,8 +1,6 @@
 import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { Trans } from "@lingui/macro"
-import clsx from "clsx"
-import { Typography } from "@chainsafe/common-components"
 
 const useStyles = makeStyles(
   ({ constants, palette, breakpoints, typography }: ITheme) => {

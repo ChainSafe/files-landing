@@ -1,8 +1,7 @@
 import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
-import { Grid, Typography, Link } from "@chainsafe/common-components"
-import { Trans } from "@lingui/macro"
-import { ROUTE_LINKS } from "../Routes"
+import { Grid, Typography } from "@chainsafe/common-components"
+import {Trans} from "@lingui/macro";
 
 const useStyles = makeStyles(({ palette, constants, breakpoints }: ITheme) => {
   return createStyles({
@@ -15,22 +14,23 @@ const useStyles = makeStyles(({ palette, constants, breakpoints }: ITheme) => {
       [breakpoints.up("3800")]: {
         maxWidth: "2560px",
       },
+      paddingLeft: constants.generalUnit * 2,
     },
     linkWrapper: {
       display: "flex",
       flexGrow: 0,
       flexBasis: "200px",
-      color: palette.additional["gray"][9],
+      color: palette.additional["gray"][5],
       margin: "0 0 .5rem 0",
       "&:hover": {
-        color: palette.primary.main,
+        color: palette.additional["gray"][8],
         transition: "ease-in 0.2s",
       },
       "& a": {
-        color: palette.additional["gray"][8],
+        color: palette.additional["gray"][7],
         textDecoration: "none",
         "&:hover": {
-          color: palette.primary.main,
+          color: palette.additional["gray"][3],
           transition: "ease-in 0.2s",
         },
       },
@@ -45,15 +45,21 @@ const useStyles = makeStyles(({ palette, constants, breakpoints }: ITheme) => {
         flexBasis: "400px",
       },
     },
+    bold: {
+      fontWeight: 600,
+    },
     header: {
       display: "block",
-      paddingBottom: constants.generalUnit * 3,
+      paddingBottom: constants.generalUnit,
       flex: 0,
+    },
+    gray8: {
+      color: palette.additional["gray"][8],
     },
     item: {
       display: "block",
       flex: 0,
-      paddingBottom: constants.generalUnit * 2,
+      paddingBottom: constants.generalUnit,
     },
     smalltextContainer: {
       [breakpoints.down("sm")]: {
@@ -85,40 +91,48 @@ const Footer: React.FC = () => {
         <Grid container>
           <Grid item className={classes.linkWrapper}>
             <Grid item className={classes.header}>
-              <Typography variant="h3">
-                <Trans>Product</Trans>
+              <Typography variant="h5" >
+                <strong><Trans>Product</Trans></strong>
               </Typography>
             </Grid>
             <Grid item className={classes.item}>
               <a
-                href="https://app.files.chainsafe.io/"
+                href="https://app.files.chainsafe.io"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Typography variant="h5">
-                  <Trans>Launch App</Trans>
+                <Typography variant="h5" className={classes.bold}>
+                  <Trans>Launch app</Trans>
+                </Typography>
+              </a>
+            </Grid>
+            <Grid item className={classes.item}>
+              <a
+                href="/terms-of-service"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Typography variant="h5" className={classes.bold}>
+                  Terms of Service
                   </Typography>
               </a>
             </Grid>
             <Grid item className={classes.item}>
-              <Link to={ROUTE_LINKS.TermsOfService}>
-                <Typography variant="h5">
-                  <Trans>Terms of Service</Trans>
-                </Typography>
-              </Link>
-            </Grid>
-            <Grid item className={classes.item}>
-              <Link to={ROUTE_LINKS.PrivacyPolicy}>
-                <Typography variant="h5">
-                  <Trans>Privacy Policy</Trans>
-                </Typography>
-              </Link>
+              <a
+                href="/privacy-policy"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Typography variant="h5" className={classes.bold}>
+                  Privacy Policy
+                  </Typography>
+              </a>
             </Grid>
           </Grid>
           <Grid item className={classes.linkWrapper}>
             <Grid item className={classes.header}>
-              <Typography variant="h3">
-                <Trans>Company</Trans>
+              <Typography variant="h5" className={classes.bold}>
+                <strong>ChainSafe</strong>
               </Typography>
             </Grid>
             <Grid item className={classes.item}>
@@ -127,16 +141,38 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Typography variant="h5">
-                  <Trans>ChainSafe Systems</Trans>
+                <Typography variant="h5" className={classes.bold}>
+                  <Trans>About</Trans>
+                </Typography>
+              </a>
+            </Grid>
+            <Grid item className={classes.item}>
+              <a
+                href="https://chainsafe.io/careers"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Typography variant="h5" className={classes.bold}>
+                  <Trans>Build with us</Trans>
+                </Typography>
+              </a>
+            </Grid>
+            <Grid item className={classes.item}>
+              <a
+                href="https://files.chainsafe.io"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Typography variant="h5" className={classes.bold}>
+                  <Trans>Try Files</Trans>
                 </Typography>
               </a>
             </Grid>
           </Grid>
           <Grid item className={classes.linkWrapper}>
             <Grid item className={classes.header}>
-              <Typography variant="h3">
-                <Trans>Community</Trans>
+              <Typography variant="h5" className={classes.bold}>
+                <strong>Community</strong>
               </Typography>
             </Grid>
             <Grid item className={classes.item}>
@@ -145,30 +181,19 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Typography variant="h5">
-                  <Trans>Twitter</Trans>
+                <Typography variant="h5" className={classes.bold}>
+                  Twitter
                 </Typography>
               </a>
             </Grid>
             <Grid item className={classes.item}>
               <a
-                href="https://github.com/ChainSafe/ui-monorepo"
+                href="https://github.com/ChainSafe"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Typography variant="h5">
-                  <Trans>Github</Trans>
-                </Typography>
-              </a>
-            </Grid>
-            <Grid item className={classes.item}>
-              <a
-                href="mailto:support@files.chainsafe.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Typography variant="h5">
-                  <Trans>Support</Trans>
+                <Typography variant="h5" className={classes.bold}>
+                  GitHub
                 </Typography>
               </a>
             </Grid>
@@ -184,7 +209,7 @@ const Footer: React.FC = () => {
         >
           <Grid item>
             <Typography component="p" variant="body1" className={classes.copyright}>
-              &copy; {currentYear} ChainSafe Systems, <Trans>All Rights Reserved</Trans>.
+              &copy; {currentYear} ChainSafe Systems, <Trans>All Rights Reserved.</Trans>
             </Typography>
           </Grid>
         </Grid>
