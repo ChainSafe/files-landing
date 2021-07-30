@@ -42,16 +42,13 @@ const useStyles = makeStyles(
           alignItems: "center",
         },
         titleText: {
-          fontWeight: 400,
+          fontWeight: 600,
           fontSize: "56px",
           lineHeight: "64px",
           [breakpoints.down(1079)]: {
             fontSize: "38px",
             lineHeight: "46px",
           }
-        },
-        bold: {
-          fontWeight: 800,
         },
         reduceLeading: {
           letterSpacing: "-1.5px",
