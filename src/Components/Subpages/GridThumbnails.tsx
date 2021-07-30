@@ -88,9 +88,9 @@ const useStyles = makeStyles(
         padding: "5vh",
       },
       "& > p": {
-        color: "white",
+        color: palette.common.white.main,
         fontSize: "36px",
-        fontFamily: "Anderson Grotesk Ultrabold, Neue Montreal",
+        fontWeight: 600,
         textAlign: "center",
         lineHeight: "44px",
         [breakpoints.down(500)]: {

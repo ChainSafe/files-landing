@@ -54,7 +54,7 @@ const useStyles = makeStyles(
       }
     },
     featureHeading: {
-      fontFamily: "Anderson Grotesk Ultrabold",
+      fontWeight: 600,
       fontSize: "38px",
       lineHeight: "44px",
       maxWidth: "80%",

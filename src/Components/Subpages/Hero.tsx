@@ -42,7 +42,7 @@ const useStyles = makeStyles(
           alignItems: "center",
         },
         titleText: {
-          fontFamily: "Anderson Grotesk Ultrabold",
+          fontWeight: 400,
           fontSize: "56px",
           lineHeight: "64px",
           [breakpoints.down(1079)]: {
@@ -131,9 +131,6 @@ const Hero: React.FC = () => {
                     Now with sharing.
                   </Trans>
                 </Typography>
-                {/* <Button 
-                size="large" variant="danger" className={clsx(classes.bold, classes.button)}
-                ><a href="https://app.storage.chainsafe.io/" target="__blank" rel="noopener noreferrer"><Trans>Sign in</Trans></a></Button> */}
                 <img src="/assets/hero.png" alt="" />
           </div>
         </section>
