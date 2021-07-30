@@ -7,25 +7,33 @@ import { Typography } from "@chainsafe/common-components"
 const useStyles = makeStyles(
   ({ constants, palette, breakpoints, typography }: ITheme) => {
     return createStyles({
-    bodyContainer: {
+    container: {
       width: "100%",
       [breakpoints.down(960)]:{
         overflowX: "hidden",
       },
-    },
-    featureList: {
-      [breakpoints.up("md")]: {
-        height: `calc(100% - ${constants.headerHeight}px)`,
-      }
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      background: "#fafafa",
     },
     featureTextContainer: {
       display: "flex",
-      padding: "5vh",
+      padding: constants.generalUnit * 4,
       justifyContent: "center",
       alignItems: "baseline",
-      [breakpoints.up(750)]:{
+      background: "#fafafa",
+      maxWidth: "90%",
+      [breakpoints.down(960)]:{
+        padding: constants.generalUnit * 2,
       },
-        background: "#fafafa",
+      "&:first-of-type":{
+        [breakpoints.down(960)]:{
+          paddingTop: constants.generalUnit * 5,
+        },
+        paddingTop: constants.generalUnit * 10,
+      }
     },
     imgContainer: {
       [breakpoints.up('999')]: {
@@ -56,13 +64,10 @@ const useStyles = makeStyles(
       display: "flex",
       flexDirection: "column",
       justifyContent: "flex-start",
-      maxWidth: "800px",
+      maxWidth: "600px",
     },
     bodyTextWrapper: {
       marginBottom: constants.generalUnit,
-      [breakpoints.up("md")]: {
-        maxWidth: `calc(100% - ${constants.generalUnit * 10}px)`,
-      },
       "& > a": {
         color: palette.additional["gray"][9],
         fontSize: "16px",
@@ -89,7 +94,7 @@ const FeaturesList:React.FC = () => {
     const classes = useStyles();
 
   return (
-    <article>
+    <article className={classes.container}>
        <div className={classes.featureTextContainer}>
          <div className={classes.imgContainer}>
            <img src="/assets/li-1.png" alt=""/>
