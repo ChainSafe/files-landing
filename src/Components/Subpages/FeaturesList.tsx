@@ -1,0 +1,165 @@
+import React from "react"
+import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
+import { Trans } from "@lingui/macro"
+import clsx from "clsx"
+import { Typography } from "@chainsafe/common-components"
+
+const useStyles = makeStyles(
+  ({ constants, palette, breakpoints, typography }: ITheme) => {
+    return createStyles({
+    bodyContainer: {
+      width: "100%",
+      [breakpoints.down(960)]:{
+        overflowX: "hidden",
+      },
+    },
+    featureList: {
+      [breakpoints.up("md")]: {
+        height: `calc(100% - ${constants.headerHeight}px)`,
+      }
+    },
+    featureTextContainer: {
+      display: "flex",
+      padding: "5vh",
+      justifyContent: "center",
+      alignItems: "baseline",
+      [breakpoints.up(750)]:{
+      },
+        background: "#fafafa",
+    },
+    imgContainer: {
+      [breakpoints.up('999')]: {
+        marginRight: "2rem",
+      },
+      [breakpoints.down('999')]: {
+        "& > img": {
+          width: '25px',
+          height: "25px",
+          marginRight: "1.5rem",
+        }
+      }
+    },
+    featureHeading: {
+      fontFamily: "Anderson Grotesk Ultrabold",
+      fontSize: "38px",
+      lineHeight: "44px",
+      maxWidth: "80%",
+      letterSpacing: "-1.25px",
+      marginBottom: constants.generalUnit,
+      [breakpoints.down(999)]: {
+        maxWidth: "95%",
+        fontSize: "32px",
+        lineHeight: "40px",
+      },
+    },
+    featureBodyTextContainer: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "flex-start",
+      maxWidth: "800px",
+    },
+    bodyTextWrapper: {
+      marginBottom: constants.generalUnit,
+      [breakpoints.up("md")]: {
+        maxWidth: `calc(100% - ${constants.generalUnit * 10}px)`,
+      },
+      "& > a": {
+        color: palette.additional["gray"][9],
+        fontSize: "16px",
+        lineHeight: "24px",
+      },
+    },
+    bodyText: {
+      fontSize: "17px",
+      lineHeight: "24px",
+      [breakpoints.down(999)]: {
+        maxWidth: "90%",
+      },
+      maxWidth: "80%",
+      marginBottom: constants.generalUnit,
+      [breakpoints.up(3500)]:{
+        fontSize: "24px",
+        lineHeight: "34px",
+      }
+    },
+  })
+})
+
+const FeaturesList:React.FC = () => {
+    const classes = useStyles();
+
+  return (
+    <article>
+       <div className={classes.featureTextContainer}>
+         <div className={classes.imgContainer}>
+           <img src="/assets/li-1.png" alt=""/>
+          </div>
+          <div className={classes.featureBodyTextContainer}>
+          <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Privacy meets convenience.</Trans></Typography>
+            <div className={classes.bodyTextWrapper}>
+              <p className={clsx(classes.bodyText)}>
+                <strong>
+                  <Trans>
+                  Perhaps you’re working on a group project. Or you’re a DAO packed with anonymous contributors. We’ve got permissions controls to support many flavours of organizational workflows, whether you prefer email or an Ethereum wallet.
+                  </Trans>
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+       <div className={classes.featureTextContainer}>
+         <div className={classes.imgContainer}>
+           <img src="/assets/li-2.png" alt=""/>
+          </div>
+          <div className={classes.featureBodyTextContainer}>
+          <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Built for peace of mind.</Trans></Typography>
+            <div className={classes.bodyTextWrapper}>
+              <p className={clsx(classes.bodyText)}>
+                <strong>
+                  <Trans>
+                    All uploaded content is encrypted end-to-end with AES-256. Your files can only be seen by you and chosen others. No tracking and selling data here, and we promise not to ever change that.
+                  </Trans>
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+       <div className={classes.featureTextContainer}>
+         <div className={classes.imgContainer}>
+           <img src="/assets/li-3.png" alt=""/>
+          </div>
+          <div className={classes.featureBodyTextContainer}>
+          <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Powered by peer-to-peer.</Trans></Typography>
+            <div className={classes.bodyTextWrapper}>
+              <p className={clsx(classes.bodyText)}>
+                <strong>
+                  <Trans>
+                    We believe autonomy and privacy go hand-in-hand. Using Files, you hold the keys.  Learn how you can always access your files even if our app goes down.
+                  </Trans>
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+       <div className={classes.featureTextContainer}>
+         <div className={classes.imgContainer}>
+           <img src="/assets/l-4.png" alt=""/>
+          </div>
+          <div className={classes.featureBodyTextContainer}>
+          <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Open-source and pluggable.</Trans></Typography>
+            <div className={classes.bodyTextWrapper}>
+              <p className={clsx(classes.bodyText)}>
+                <strong>
+                  <Trans>
+                    We’ve released the part of our stack that interacts with the Filecoin network as a modular product, so you can hook up decentralized storage to your apps.
+                  </Trans>
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+  )
+}
+
+export default FeaturesList;

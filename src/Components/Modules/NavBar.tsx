@@ -11,11 +11,11 @@ const useStyles = makeStyles(
         width: "100%",
         display: "flex",
         justifyContent: "flex-start",
-        background: palette.additional["gray"][3],
         height: `${constants.headerHeight}px`,
         position: "fixed",
         padding: "1rem",
         zIndex: zIndex?.layer4,
+        background: "#0f0f0f",
         [breakpoints.down("sm")]: {
           padding: "none",
         },
@@ -32,8 +32,9 @@ const useStyles = makeStyles(
         margin: constants.generalUnit,
       },
       navlink: {
-        color: palette.common.black.main,
+        color: palette.common.white.main,
         textDecoration: "none",
+        fontWeight: "bold",
         "&:hover": {
           color: palette.primary.main,
           transition: "ease-in 0.2s",
@@ -72,11 +73,11 @@ const NavBar: React.FC = () => {
               rel="noopener noreferrer"
               href="https://app.files.chainsafe.io/"
               className={classes.navlink}
-            >
-              <Trans>Launch App </Trans>
+              >
+              <Trans>Sign in</Trans>
             </a>
           </Typography>
-          <LanguageSelection/>
+        <LanguageSelection/>
         </Grid>
       </Grid>
     </div>

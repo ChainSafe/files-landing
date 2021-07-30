@@ -4,6 +4,8 @@ import Landing from "../Subpages/Landing"
 import Footer from "../Modules/Footer"
 import { useParams } from "@chainsafe/common-components"
 import { useLanguageContext } from "../../LanguageContext"
+import Hero from "../Subpages/Hero"
+import FeaturesList from "../Subpages/FeaturesList"
 
 const HomePage: React.FC = () => {
   const { lang } = useParams()
@@ -23,8 +25,9 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <NavBar />
-      <Landing />
-      <Footer />
+      <Hero />
+      <FeaturesList/>
+      {/* <Footer /> */}
     </div>
   )
 }
