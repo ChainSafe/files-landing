@@ -73,7 +73,7 @@ const useStyles = makeStyles(
           padding: "2rem",
           height: `calc(100vh - ${constants.headerHeight}px)`,
           "& > img": {
-            maxHeight: "70%",
+            maxHeight: "60%",
             [breakpoints.down('md')]:{
               width: "90%",
             }
@@ -128,7 +128,8 @@ const Hero: React.FC = () => {
                     Now with sharing.
                   </Trans>
                 </Typography>
-                <img src="/assets/hero.png" alt="" />
+                <br/>
+                <img src="/assets/hero-small.png" alt="Brightly colored patterns of files stacked on top of each other" />
           </div>
         </section>
       </div>

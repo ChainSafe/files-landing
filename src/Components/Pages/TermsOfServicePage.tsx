@@ -653,8 +653,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            <strong>15.3. Waiver of Jury Trial. </strong>Each Party acknowledges and agrees that any Disputes that may arise under this Agreement is likely to involve complicated and difficult issues and, therefore, each such Party irrevocably and unconditionally waives any right it may have to a trial by jury in respect of any legal action arising out of or relating to this Agreement or the transactions contemplated hereby. Each Party to this Agreement acknowledges that (a) no representative of any other Party has represented, expressly or otherwise, that such other Party would not seek to enforce the foregoing waiver in the event of any legal action; (b) such Party has considered and understood the implications of this waiver; (c) such Party makes this waiver knowingly and voluntarily; and (d) such Party has been induced to enter into this Agreement by, among other things, the mutual waivers and acknowledgments in this Section.
-
+            <strong>15.3. Waiver of Jury Trial. </strong>Each Party acknowledges and agrees that any Disputes that may arise under this Agreement is likely to involve complicated and difficult issues and, therefore, each such Party irrevocably and unconditionally waives any right it may have to a trial by jury in respect of any legal action arising out of or relating to this Agreement or the transactions contemplated hereby. 
           </Trans>
         </Typography>
         <Typography

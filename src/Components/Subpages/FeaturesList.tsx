@@ -42,16 +42,18 @@ const useStyles = makeStyles(
       },
     },
     imgContainer: {
-      [breakpoints.up('999')]: {
-        marginRight: "2rem",
-      },
       [breakpoints.down('999')]: {
         "& > img": {
-          width: '25px',
+          width: "25px",
+          maxWidth: "25px",
           height: "25px",
           marginRight: "1.5rem",
         }
-      }
+      },
+      width: '140px',
+      maxWidth: '140px',
+      height: "25px",
+      marginRight: "2rem",
     },
     featureHeading: {
       fontWeight: 600,
@@ -103,7 +105,7 @@ const FeaturesList:React.FC = () => {
     <article className={classes.container}>
        <div className={classes.featureTextContainer}>
          <div className={classes.imgContainer}>
-           <img src="/assets/li-1.png" alt=""/>
+           <img src="/assets/li-01.png" alt="Brightly colored glitchy vertical stripes"/>
           </div>
           <div className={classes.featureBodyTextContainer}>
           <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Privacy meets convenience.</Trans></Typography>
@@ -120,7 +122,7 @@ const FeaturesList:React.FC = () => {
         </div>
        <div className={classes.featureTextContainer}>
          <div className={classes.imgContainer}>
-           <img src="/assets/li-2.png" alt=""/>
+          <img src="/assets/li-02.png" alt="Brightly colored glitchy vertical stripes"/>
           </div>
           <div className={classes.featureBodyTextContainer}>
           <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Built for peace of mind.</Trans></Typography>
@@ -137,7 +139,7 @@ const FeaturesList:React.FC = () => {
         </div>
        <div className={classes.featureTextContainer}>
          <div className={classes.imgContainer}>
-           <img src="/assets/li-3.png" alt=""/>
+          <img src="/assets/li-03.png" alt="Brightly colored glitchy vertical stripes"/>
           </div>
           <div className={classes.featureBodyTextContainer}>
           <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Powered by peer-to-peer.</Trans></Typography>
@@ -154,7 +156,7 @@ const FeaturesList:React.FC = () => {
         </div>
        <div className={classes.featureTextContainer}>
          <div className={classes.imgContainer}>
-           <img src="/assets/l-4.png" alt=""/>
+          <img src="/assets/li-04.png" alt="Brightly colored glitchy vertical stripes"/>
           </div>
           <div className={classes.featureBodyTextContainer}>
           <Typography component="p" className={clsx(classes.featureHeading)}><Trans>Open-source and pluggable.</Trans></Typography>
