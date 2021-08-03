@@ -2,7 +2,7 @@ import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { Grid, Typography } from "@chainsafe/common-components"
 import { Trans } from "@lingui/macro"
-import LanguageSelection from "../LanguageSelector"
+// import LanguageSelection from "../LanguageSelector"
 
 const useStyles = makeStyles(
   ({ breakpoints, palette, zIndex, constants }: ITheme) => {
@@ -39,10 +39,11 @@ const useStyles = makeStyles(
           color: palette.primary.main,
           transition: "ease-in 0.2s",
         },
+        [breakpoints.up('sm')]: {
+          marginRight: `${constants.generalUnit *2}px`
+        }
       },
-      separator: {
-        color: palette.common.black.main,
-      },
+
     })
   },
 )
