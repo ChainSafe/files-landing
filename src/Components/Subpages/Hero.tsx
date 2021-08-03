@@ -94,7 +94,14 @@ const useStyles = makeStyles(
         },
         yellow:{ 
           color: palette.additional["yellow"][4],
+      },
+      hoverLink: {
+        color: palette.common.white.main,
+        "&:hover": {
+          color: palette.primary.main,
+          transition: "ease-in 0.2s",
         },
+      },
         button: {
           background: palette.primary.main,
           fontSize: "18px",
@@ -120,7 +127,7 @@ const Hero: React.FC = () => {
           <div className={classes.headerContentContainer}>
                 <Typography component="p" className={clsx(classes.titleText, classes.reduceLeading, classes.white)}>
                   <Trans>
-                    Encrypted file storage.
+                Encrypted <a href="https://app.files.chainsafe.io/" target="__blank" rel="noopener noreferrer" className={classes.hoverLink}>file storage.</a>
                   </Trans>
                 </Typography>
                 <Typography component="p" className={clsx(classes.titleText, classes.reduceLeading, classes.white)}>
