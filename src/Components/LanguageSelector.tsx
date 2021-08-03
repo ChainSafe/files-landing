@@ -9,19 +9,21 @@ const useStyles = makeStyles(
     return createStyles({
       root: {
         marginLeft: "1rem",
-        color: palette.common.black.main,
+        color: palette.common.white.main,
         "&:hover": {
           color: palette.primary.main,
           transition: "ease-in 0.2s",
         },
-        fontWeight: 400,
+        fontWeight: "bold",
         lineHeight: `${constants.generalUnit*3}px`
     },
     options: {
-        color: "black",
+      color: palette.common.black.main,
+      fontWeight: "bold",
     },
     title: {
         fontSize: `${constants.generalUnit*2}px`,
+        fontWeight: "bold",
         width: "100%"
       },
     item: {
