@@ -42,7 +42,7 @@ const useStyles = makeStyles(
       },
     },
     imgContainer: {
-      [breakpoints.down('999')]: {
+      [breakpoints.down('599')]: {
         "& > img": {
           width: "25px",
           maxWidth: "25px",
