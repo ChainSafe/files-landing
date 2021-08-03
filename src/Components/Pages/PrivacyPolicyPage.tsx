@@ -90,7 +90,7 @@ const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
   return (
-    <div>
+    <div style={{background: "#fafafa"}}>
       <NavBar />
       <div className={classes.container}>
         <Typography
