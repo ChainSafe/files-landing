@@ -153,7 +153,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                  Autonomy and privacy go hand-in-hand. We're doing our best to reduce our role as a middleman by storing your files on the <a href="https://ipfs.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>IPFS</a> and <a href="https://filecoin.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>Filecoin networks</a>. Plus, we've decentralized our login system to minimize trust and maximize security.
+                  Autonomy and privacy go hand-in-hand. We're doing our best to reduce our role as a middleman by storing your files on the <a href="https://ipfs.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>IPFS</a> and <a href="https://filecoin.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>Filecoin network</a>. Plus, we've decentralized our login system to minimize trust and maximize security.
                   </Trans>
                 </strong>
               </p>
