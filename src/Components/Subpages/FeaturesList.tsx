@@ -119,7 +119,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                  Perhaps you’re working on a group project. Or you’re a DAO packed with anonymous contributors. We’ve got permissions controls to support many flavours of organizational workflows, whether you prefer email or an Ethereum wallet.
+                  Perhaps you’re working on a group project. Or you’re a DAO packed with anonymous contributors. We’ve got permissions controls to support many flavours of anonymity, whether you prefer an email or an Ethereum wallet.
                   </Trans>
                 </strong>
               </p>
@@ -136,7 +136,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                    All uploaded content is encrypted end-to-end with AES-256. Your files can only be seen by you and chosen others. No tracking and selling data here, and we promise not to ever change that.
+                  All uploaded content is encrypted end-to-end with AES-256. Your files can only be seen by you and chosen others <a href="https://github.com/ChainSafe/ui-monorepo/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>(verify our code on GitHub!).</a> We are not in the business of selling your data, and we promise to never change that.
                   </Trans>
                 </strong>
               </p>
@@ -153,7 +153,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                    We believe autonomy and privacy go hand-in-hand. Using Files, you hold the keys.
+                  Autonomy and privacy go hand-in-hand. We're doing our best to reduce our role as a middleman by storing your files on the <a href="https://ipfs.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>IPFS</a> and <a href="https://filecoin.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>Filecoin networks</a>. Plus, we've decentralized our login system to minimize trust and maximize security.
                   </Trans>
                 </strong>
               </p>
@@ -170,7 +170,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                  We’ve released the part of our stack that interacts with the Filecoin network as a <a href="https://storage.chainsafe.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>modular product</a>, so you can hook up decentralized storage to your apps.
+                  We’ve released the part of our stack that interacts with the Filecoin network as a <a href="https://storage.chainsafe.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>modular product</a>, so you can hook up decentralized storage to your apps. 
                   </Trans>
                 </strong>
               </p>
