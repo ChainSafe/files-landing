@@ -156,24 +156,35 @@ const Footer: React.FC = () => {
                   <Trans>Build with us</Trans>
                 </Typography>
               </a>
-            </Grid>
-            <Grid item className={classes.item}>
-              <a
-                href="https://files.chainsafe.io"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Typography variant="h5" className={classes.bold}>
-                  <Trans>Try Files</Trans>
-                </Typography>
-              </a>
-            </Grid>
+          </Grid>
+          <Grid item className={classes.item}>
+            <a
+              href="https://discord.com/invite/xSAwrnCWcg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Typography variant="h5" className={classes.bold}>
+                Discord
+              </Typography>
+            </a>
+          </Grid>
           </Grid>
           <Grid item className={classes.linkWrapper}>
             <Grid item className={classes.header}>
               <Typography variant="h5" className={classes.bold}>
                 <strong>Community</strong>
               </Typography>
+            </Grid>
+            <Grid item className={classes.item}>
+              <a
+              href="https://github.com/chainsafe/ui-monorepo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Typography variant="h5" className={classes.bold}>
+                  GitHub Repo
+                </Typography>
+              </a>
             </Grid>
             <Grid item className={classes.item}>
               <a
@@ -188,12 +199,12 @@ const Footer: React.FC = () => {
             </Grid>
             <Grid item className={classes.item}>
               <a
-                href="https://github.com/ChainSafe"
+              href="mailto:support@chainsafe.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Typography variant="h5" className={classes.bold}>
-                  GitHub
+                  Email us 
                 </Typography>
               </a>
             </Grid>

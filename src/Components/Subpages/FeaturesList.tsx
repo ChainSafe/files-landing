@@ -94,7 +94,13 @@ const useStyles = makeStyles(
         fontSize: "24px",
         lineHeight: "34px",
       }
-    },
+      },
+      hoverLink: {
+        "&:hover": {
+          color: palette.primary.main,
+          transition: "ease-in 0.2s",
+        },
+      },
   })
 })
 
@@ -164,7 +170,7 @@ const FeaturesList:React.FC = () => {
               <p className={clsx(classes.bodyText)}>
                 <strong>
                   <Trans>
-                    We’ve released the part of our stack that interacts with the Filecoin network as a modular product, so you can hook up decentralized storage to your apps.
+                  We’ve released the part of our stack that interacts with the Filecoin network as a <a href="https://storage.chainsafe.io/" rel="noopener noreferrer" target="__blank" className={classes.hoverLink}>modular product</a>, so you can hook up decentralized storage to your apps.
                   </Trans>
                 </strong>
               </p>

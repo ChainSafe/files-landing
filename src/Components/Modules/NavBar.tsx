@@ -2,7 +2,7 @@ import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { Grid, Typography } from "@chainsafe/common-components"
 import { Trans } from "@lingui/macro"
-// import LanguageSelection from "../LanguageSelector"
+import LanguageSelection from "../LanguageSelector"
 
 const useStyles = makeStyles(
   ({ breakpoints, palette, zIndex, constants }: ITheme) => {
