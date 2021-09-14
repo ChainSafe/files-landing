@@ -6,28 +6,29 @@ import { useParams } from "@chainsafe/common-components"
 import { useLanguageContext } from "../../LanguageContext"
 import Hero from "../Subpages/Hero"
 import FeaturesList from "../Subpages/FeaturesList"
+import { usePageTrack } from "../Contexts/PosthogContext"
 
 const HomePage: React.FC = () => {
   const { lang } = useParams()
   const { availableLanguages, selectedLanguage, setActiveLanguage } = useLanguageContext()
-
+  usePageTrack()
   useEffect(() => {
     if (!lang) return
 
     const availableRoute = availableLanguages.find((availableLanguage) => availableLanguage.id === lang)
 
-    if(availableRoute !== undefined && selectedLanguage !== lang ){
+    if (availableRoute !== undefined && selectedLanguage !== lang) {
       setActiveLanguage(lang, false)
     }
-  } 
+  }
     , [availableLanguages, lang, selectedLanguage, setActiveLanguage]
   )
   return (
     <div>
-      <NavBar /> 
+      <NavBar />
       <Hero />
-      <FeaturesList/>
-      <GridThumbnails/>
+      <FeaturesList />
+      <GridThumbnails />
       <Footer />
     </div>
   )

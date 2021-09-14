@@ -4,6 +4,7 @@ import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
+import { usePageTrack } from "../Contexts/PosthogContext"
 
 const useStyles = makeStyles(
   ({ palette, constants, breakpoints, typography }: ITheme) =>
@@ -89,8 +90,9 @@ const useStyles = makeStyles(
 const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
+  usePageTrack()
   return (
-    <div style={{background: "#fafafa"}}>
+    <div style={{ background: "#fafafa" }}>
       <NavBar />
       <div className={classes.container}>
         <Typography
@@ -164,7 +166,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            We may need to collect some personal information to provide the Service to you in a secure and safe manner. Our collection and use of your personal information will be limited to that which is necessary to provide you with a tailored experience. 
+            We may need to collect some personal information to provide the Service to you in a secure and safe manner. Our collection and use of your personal information will be limited to that which is necessary to provide you with a tailored experience.
           </Trans>
         </Typography>
         <ol className={clsx(classes.orderedList, classes.padLarge)}>
@@ -174,7 +176,7 @@ const TermsOfServicePage: React.FC = () => {
             </Trans>
           </li>
         </ol>
-      
+
         {/* Personal Information we (indirectly) collect */}
         <Typography
           component="h2"
@@ -233,7 +235,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            <strong>OAuth Authentication:</strong> if you register for a User Account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your User Account. 
+            <strong>OAuth Authentication:</strong> if you register for a User Account using our OAuth service, your name, email and username from the OAuth service may be collected and stored to identify your User Account.
 
           </Trans>
         </Typography>
@@ -259,7 +261,7 @@ const TermsOfServicePage: React.FC = () => {
           </li>
           <li>
             <Trans>Communicate with us through email, social media, or by phone or any other means.</Trans>
-          </li>          
+          </li>
           <li>
             <Trans>Provide us with your name, email address or other identifying information.</Trans>
           </li>
@@ -350,7 +352,7 @@ const TermsOfServicePage: React.FC = () => {
         <ol className={clsx(classes.romanOrderedList, classes.padLarge)}>
           <li>
             <Trans>
-              <strong>Affiliated Companies:</strong> We may share your information with our subsidiaries, parent company and other affiliated entities to effectively provide you with the Service. 
+              <strong>Affiliated Companies:</strong> We may share your information with our subsidiaries, parent company and other affiliated entities to effectively provide you with the Service.
             </Trans>
           </li>
           <li>
@@ -370,7 +372,7 @@ const TermsOfServicePage: React.FC = () => {
           </li>
           <li>
             <Trans>
-              <strong>Commercial Partners:</strong> We may share your information or anonymized aggregated data derived from your information and the information of others with some of our commercial partners.  
+              <strong>Commercial Partners:</strong> We may share your information or anonymized aggregated data derived from your information and the information of others with some of our commercial partners.
             </Trans>
           </li>
           <li>
@@ -378,9 +380,9 @@ const TermsOfServicePage: React.FC = () => {
               <strong>Legal Requirements:</strong> We may disclose personal information in order to comply with any court order, law, or legal process, including to respond to any government or regulatory request, under applicable law.
             </Trans>
             <Typography
-            component="p"
-            variant="body1"
-            className={clsx(classes.text, classes.padSmall)}
+              component="p"
+              variant="body1"
+              className={clsx(classes.text, classes.padSmall)}
             >
               <Trans>
                 Due to the end-to-end encryption provided through the Service, we will not be able to provide an unencrypted version of any User Content uploaded by a third-party unless we are provided with a shared key. The only information we may be able to share would be the personal information provided to us or User Content where a key to access it has been shared with us by a third-party.
@@ -420,9 +422,9 @@ const TermsOfServicePage: React.FC = () => {
           <Trans>Data security</Trans>
         </Typography>
         <Typography
-        component="p"
-        variant="body1"
-        className={clsx(classes.text, classes.padSmall)}
+          component="p"
+          variant="body1"
+          className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
             ChainSafe Files uses physical, electronic, technical and administrative safeguards designed to secure your personal information from accidental loss and unauthorized access, use, modification, and disclosure. Any personal information stored and retrieved through the Service are encrypted end-to-end using AES-256 and HMAC encryption. Although we implement measures to protect your personal information, we cannot guarantee the security of your personal information transmitted to the Service over the internet. Any transmission of personal information through the Service is done at your own risk. We are not responsible for your circumvention of any privacy settings or security measures contained on the Service.
@@ -443,9 +445,9 @@ const TermsOfServicePage: React.FC = () => {
               <strong>Retention Policy.</strong> To improve the Service, we may aggregate information from users after removing information that can allow them to be identified. You acknowledge and agree that we may use anonymized personal information for legitimate business purposes that cannot be associated with you or the User. We reserve the right to use such anonymized information without further notice.
             </Trans>
             <Typography
-            component="p"
-            variant="body1"
-            className={clsx(classes.text, classes.padSmall)}
+              component="p"
+              variant="body1"
+              className={clsx(classes.text, classes.padSmall)}
             >
               <Trans>
                 We may periodically de-identify or delete personal information from inactive user accounts and unnecessary information that is flagged by our system. With the exception of aggregated or anonymized data, we will delete unnecessary or unused personal informational after two (2) years of inactivity on the Service.
@@ -458,7 +460,7 @@ const TermsOfServicePage: React.FC = () => {
             </Trans>
           </li>
         </ol>
-       
+
         {/* User Rights */}
         <Typography
           component="h2"
@@ -468,9 +470,9 @@ const TermsOfServicePage: React.FC = () => {
           <Trans>User Rights</Trans>
         </Typography>
         <Typography
-        component="p"
-        variant="body1"
-        className={clsx(classes.text, classes.padSmall)}
+          component="p"
+          variant="body1"
+          className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
             If you would like to exercise any of the following rights, please contact us at our email below:
@@ -482,7 +484,7 @@ const TermsOfServicePage: React.FC = () => {
               <strong>
                 Accessing, Correcting or Updating Your Information:{" "}
               </strong>
-              You may request for us at any time to correct your information or to provide you with a copy of your personal information that we maintain in electronic format. 
+              You may request for us at any time to correct your information or to provide you with a copy of your personal information that we maintain in electronic format.
             </Trans>
           </li>
           <li>
@@ -490,7 +492,7 @@ const TermsOfServicePage: React.FC = () => {
               <strong>
                 Deleting Your Information:{" "}
               </strong>
-                You may request for us at any time to have your personal information that we maintain deleted. We will comply with your request unless there are legitimate business or legal grounds for the continued retention of your personal information.
+              You may request for us at any time to have your personal information that we maintain deleted. We will comply with your request unless there are legitimate business or legal grounds for the continued retention of your personal information.
             </Trans>
           </li>
           <li>
@@ -537,7 +539,7 @@ const TermsOfServicePage: React.FC = () => {
             We may send periodic marketing, promotional or informational emails to you in accordance with your communication preferences. These may include emails for future events and products. You may opt out of such communications at any time by following the opt-out instructions contained in the email or by contacting us at the email below.
           </Trans>
         </Typography>
-       
+
         {/* Children’s Privacy */}
         <Typography
           component="h2"
@@ -570,7 +572,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            We may make changes to our Privacy Policy from time to time. It is our policy to post any changes we make on this page. If we make any material changes to how we treat your personal information, we will notify you by emailing the email address specified in your account or by posting a notice about the changes on a conspicuous area of the Service. 
+            We may make changes to our Privacy Policy from time to time. It is our policy to post any changes we make on this page. If we make any material changes to how we treat your personal information, we will notify you by emailing the email address specified in your account or by posting a notice about the changes on a conspicuous area of the Service.
           </Trans>
         </Typography>
         <Typography
@@ -601,7 +603,7 @@ const TermsOfServicePage: React.FC = () => {
           </Trans>
         </Typography>
 
-        
+
         <Typography
           component="p"
           variant="body1"
