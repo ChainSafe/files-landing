@@ -18,7 +18,7 @@ const PosthogContext = React.createContext<PosthogContext>({
 })
 
 const useStyles = makeStyles(
-  ({ palette }: ITheme) => {
+  ({ palette, breakpoints }: ITheme) => {
     return createStyles({
       cookieBanner: {
         position: "fixed",
@@ -27,7 +27,10 @@ const useStyles = makeStyles(
         display: "flex",
         flexDirection: "column",
         backgroundColor: palette.primary.main,
-        padding: "16px 32px"
+        padding: "16px 32px",
+        [breakpoints.down('sm')]: {
+          padding: "16px 16px",
+        }
       },
       buttonSection: {
         display: "flex",
