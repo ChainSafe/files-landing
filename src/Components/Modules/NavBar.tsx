@@ -74,7 +74,7 @@ const NavBar: React.FC = () => {
               href="https://app.files.chainsafe.io/"
               className={classes.navlink}
               >
-              <Trans>Sign in</Trans>
+                Software Stats
             </a>
           </Typography>
         <LanguageSelection/>
