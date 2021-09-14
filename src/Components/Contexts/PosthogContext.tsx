@@ -92,11 +92,7 @@ const PosthogProvider = ({ children }: PosthogProviderProps) => {
         <div className={classes.cookieBanner}>
           <Typography variant='h4'>This website uses cookies</Typography>
           <Typography variant='body2'>
-            Cookie legal...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <a href="https://files.chainsafe.io/privacy-policy">Learn more</a>
           </Typography>
           <div className={classes.buttonSection}>
             <Button onClick={optOutCapturing}>Decline</Button>
