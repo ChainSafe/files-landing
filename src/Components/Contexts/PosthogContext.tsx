@@ -36,7 +36,7 @@ const useStyles = makeStyles(
       },
       bannerHeading: {
         fontSize: 24,
-        lineHeight: 28,
+        lineHeight: '28px',
         [breakpoints.down('sm')]: {
           fontSize: 18,
           lineHeight: '22px',
