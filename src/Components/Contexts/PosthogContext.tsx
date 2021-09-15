@@ -26,9 +26,9 @@ const useStyles = makeStyles(
         bottom: 0,
         width: "100%",
         display: "flex",
+        color: palette.common.white.main,
         flexDirection: "column",
         backgroundColor: palette.primary.main,
-        color: '#FFF',
         padding: "16px 32px",
         [breakpoints.down('sm')]: {
           padding: "8px 16px",
@@ -49,6 +49,9 @@ const useStyles = makeStyles(
           fontSize: 12,
           lineHeight: '16px',
         }
+      },
+      link: {
+        color: palette.common.white.main,
       },
       buttonSection: {
         display: "flex",
@@ -116,7 +119,7 @@ const PosthogProvider = ({ children }: PosthogProviderProps) => {
           <Typography className={classes.bannerHeading}><Trans>This website uses cookies</Trans></Typography>
           <Typography className={classes.bannerText}>
             <Trans>
-              This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <a href="https://files.chainsafe.io/privacy-policy">Learn more</a>
+              This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <a className={classes.link} href="https://files.chainsafe.io/privacy-policy">Learn more</a>
             </Trans>
           </Typography>
           <div className={classes.buttonSection}>
