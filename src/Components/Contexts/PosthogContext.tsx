@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from "react"
 import posthog from "posthog-js"
 import { Button, Typography, useLocation } from "@chainsafe/common-components"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
+import { Trans } from "@lingui/macro"
 
 export type PosthogContext = {
   posthogInitialized: boolean
@@ -27,9 +28,26 @@ const useStyles = makeStyles(
         display: "flex",
         flexDirection: "column",
         backgroundColor: palette.primary.main,
+        color: '#FFF',
         padding: "16px 32px",
         [breakpoints.down('sm')]: {
-          padding: "16px 16px",
+          padding: "8px 16px",
+        }
+      },
+      bannerHeading: {
+        fontSize: 24,
+        lineHeight: 28,
+        [breakpoints.down('sm')]: {
+          fontSize: 18,
+          lineHeight: '22px',
+        }
+      },
+      bannerText: {
+        fontSize: 14,
+        lineHeight: '18px',
+        [breakpoints.down('sm')]: {
+          fontSize: 12,
+          lineHeight: '16px',
         }
       },
       buttonSection: {
@@ -45,6 +63,7 @@ const useStyles = makeStyles(
 
 const PosthogProvider = ({ children }: PosthogProviderProps) => {
   const [posthogState, setPosthogState] = useState({ hasOptedOut: false, hasOptedIn: false })
+
   const classes = useStyles()
   const posthogInitialized = useMemo(() =>
     !!process.env.REACT_APP_POSTHOG_PROJECT_API_KEY &&
@@ -67,7 +86,8 @@ const PosthogProvider = ({ children }: PosthogProviderProps) => {
   }, [refreshPosthogState])
 
   const shouldShowBanner = useMemo(() =>
-    posthogInitialized && !posthogState.hasOptedOut && !posthogState.hasOptedIn, [posthogState, posthogInitialized])
+    posthogInitialized && !posthogState.hasOptedOut && !posthogState.hasOptedIn,
+    [posthogState, posthogInitialized])
 
   const optInCapturing = useCallback(() => {
     if (posthogInitialized) {
@@ -93,14 +113,17 @@ const PosthogProvider = ({ children }: PosthogProviderProps) => {
       {children}
       {shouldShowBanner &&
         <div className={classes.cookieBanner}>
-          <Typography variant='h4'>This website uses cookies</Typography>
-          <Typography variant='body2'>
-           This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <a href="https://files.chainsafe.io/privacy-policy">Learn more</a>
+          <Typography className={classes.bannerHeading}><Trans>This website uses cookies</Trans></Typography>
+          <Typography className={classes.bannerText}>
+            <Trans>
+              This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <a href="https://files.chainsafe.io/privacy-policy">Learn more</a>
+            </Trans>
           </Typography>
           <div className={classes.buttonSection}>
-            <Button onClick={optOutCapturing}>Decline</Button>
-            <Button onClick={optInCapturing}
-              variant='outline'>Accept</Button>
+            <Button onClick={optOutCapturing}><Trans>Decline</Trans></Button>
+            <Button onClick={optInCapturing} variant='outline'>
+              <Trans>Accept</Trans>
+            </Button>
           </div>
         </div>
       }

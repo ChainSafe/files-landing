@@ -1,6 +1,6 @@
 import React from "react"
 import { ThemeProvider, createTheme } from "@chainsafe/common-theme"
-import { LanguageProvider } from "./LanguageContext"
+import { LanguageProvider } from "./Components/Contexts/LanguageContext"
 import { CssBaseline, Router } from "@chainsafe/common-components"
 import "@chainsafe/common-theme/dist/font-faces.css"
 import Routes from "./Components/Routes"
@@ -38,7 +38,7 @@ const theme = createTheme({
       h4: {
         fontSize: "24px",
         lineHeight: "28px"
-      }
+      },
     }
   }
 })

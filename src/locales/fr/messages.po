@@ -263,6 +263,9 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+msgid "Accept"
+msgstr ""
+
 msgid "All Rights Reserved."
 msgstr ""
 
@@ -324,6 +327,9 @@ msgid "Data retention"
 msgstr ""
 
 msgid "Data security"
+msgstr ""
+
+msgid "Decline"
 msgstr ""
 
 msgid "Disclosure of your information"
@@ -411,6 +417,12 @@ msgid "The gist of it"
 msgstr ""
 
 msgid "This Privacy Policy describes the personal information we may collect, the reasons we collect it, how we use it, and how we keep it secure. ChainSafe will not collect, use or disclose your personal information in any way other than in accordance with this policy, unless obligated by applicable law."
+msgstr ""
+
+msgid "This website uses cookies"
+msgstr ""
+
+msgid "This website uses cookies that help the website function and track interactions for analytics purposes. You have the right to decline our use of cookies. For us to provide a customizable user experience to you, please click on the Accept button below. <0>Learn more</0>"
 msgstr ""
 
 msgid "To carry out our obligations and comply with applicable law; and"
