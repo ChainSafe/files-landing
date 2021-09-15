@@ -87,7 +87,7 @@ const LanguageProvider = ({ children, availableLanguages }: LanguageProviderProp
       return
     }
 
-    import(`./locales/${newLanguage}/messages.js`)
+    import(`../../locales/${newLanguage}/messages.js`)
       .then((newCatalog) => {
         i18n.load(newLanguage, newCatalog.default.messages)
         i18n.loadLocaleData(newLanguage, { plurals: (plurals as Record<string, any>)[newLanguage] })

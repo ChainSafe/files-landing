@@ -1,5 +1,5 @@
 import React, { useMemo } from "react"
-import { useLanguageContext } from "../LanguageContext"
+import { useLanguageContext } from "./Contexts/LanguageContext"
 import { MenuDropdown, useHistory } from "@chainsafe/common-components"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { ROUTE_LINKS } from "./Routes"

@@ -4,6 +4,7 @@ import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
+import { usePageTrack } from "../Contexts/PosthogContext"
 
 const useStyles = makeStyles(
   ({ palette, constants, breakpoints, typography }: ITheme) =>
@@ -82,7 +83,7 @@ const useStyles = makeStyles(
 const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
-
+  usePageTrack()
   return (
     <div style={{ background: "#fafafa" }}>
       <NavBar />
@@ -254,7 +255,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-              By submitting an Order Form, you agree to pay the applicable Fees relevant to your products or services purchased through the Service. Unless otherwise specified, Fee payment obligations are non-cancelable and non-refundable.
+            By submitting an Order Form, you agree to pay the applicable Fees relevant to your products or services purchased through the Service. Unless otherwise specified, Fee payment obligations are non-cancelable and non-refundable.
           </Trans>
         </Typography>
         <Typography
@@ -276,7 +277,7 @@ const TermsOfServicePage: React.FC = () => {
 
           </Trans>
         </Typography>
-        
+
         <Typography
           component="h2"
           variant="h3"
@@ -653,7 +654,7 @@ const TermsOfServicePage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-            <strong>15.3. Waiver of Jury Trial. </strong>Each Party acknowledges and agrees that any Disputes that may arise under this Agreement is likely to involve complicated and difficult issues and, therefore, each such Party irrevocably and unconditionally waives any right it may have to a trial by jury in respect of any legal action arising out of or relating to this Agreement or the transactions contemplated hereby. 
+            <strong>15.3. Waiver of Jury Trial. </strong>Each Party acknowledges and agrees that any Disputes that may arise under this Agreement is likely to involve complicated and difficult issues and, therefore, each such Party irrevocably and unconditionally waives any right it may have to a trial by jury in respect of any legal action arising out of or relating to this Agreement or the transactions contemplated hereby.
           </Trans>
         </Typography>
         <Typography
@@ -728,7 +729,7 @@ const TermsOfServicePage: React.FC = () => {
             <strong>15.10. Successors and Assigns. </strong>This Agreement shall enure to the benefit of and be binding on the parties and their respective successors and permitted assigns. Chainsafe may assign all or part of its rights or duties under this Agreement. You may not assign this Agreement or its rights or obligations hereunder without ChainSafe’s prior written consent.
           </Trans>
         </Typography>
-        
+
         <Typography
           component="p"
           variant="body1"
@@ -738,7 +739,7 @@ const TermsOfServicePage: React.FC = () => {
             <strong>15.11. Severability and Waiver. </strong>This Agreement shall be deemed severable, and the invalidity or unenforceability of any term or provision and shall not affect the validity or enforceability of this Agreement or of any other term or provision in this Agreement. Should any term or provision of this Agreement be declared void or unenforceable by any court of competent jurisdiction, the Parties intend that a substitute provision will be added to this Agreement so that, to the greatest extent possible, the substitute provision achieves the intended commercial outcome of the original provision. Any failure of either Party to enforce any rights granted to it hereunder or to take action against the other Party in the event of any breach hereunder will not be deemed a waiver by that Party as to subsequent enforcement of rights or subsequent actions in the event of future breaches.
           </Trans>
         </Typography>
-        
+
         <Typography
           component="p"
           variant="body1"
@@ -782,7 +783,7 @@ const TermsOfServicePage: React.FC = () => {
             <strong>16.1.</strong>If you have any questions regarding these Terms or your use of the Service, please contact us here: <a href="mailto:support@chainsafe.io" className={classes.emailLink}>support@chainsafe.io</a>
           </Trans>
         </Typography>
-       
+
       </div>
     </div>
   )

@@ -1,9 +1,10 @@
 import React from "react"
 import { ThemeProvider, createTheme } from "@chainsafe/common-theme"
-import { LanguageProvider } from "./LanguageContext"
+import { LanguageProvider } from "./Components/Contexts/LanguageContext"
 import { CssBaseline, Router } from "@chainsafe/common-components"
 import "@chainsafe/common-theme/dist/font-faces.css"
 import Routes from "./Components/Routes"
+import { PosthogProvider } from "./Components/Contexts/PosthogContext"
 
 const theme = createTheme({
   globalStyling: {
@@ -37,7 +38,7 @@ const theme = createTheme({
       h4: {
         fontSize: "24px",
         lineHeight: "28px"
-      }
+      },
     }
   }
 })
@@ -53,7 +54,9 @@ const App: React.FC<{}> = () => {
       <LanguageProvider availableLanguages={availableLanguages}>
         <CssBaseline />
         <Router>
-          <Routes />
+          <PosthogProvider>
+            <Routes />
+          </PosthogProvider>
         </Router>
       </LanguageProvider>
     </ThemeProvider>
