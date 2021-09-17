@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.12.10",
+    "@chainsafe/browser-storage-hooks": "^1.0.1",
     "@chainsafe/common-components": "1.0.29",
     "@chainsafe/common-theme": "1.0.10",
     "@craco/craco": "^5.9.0",
