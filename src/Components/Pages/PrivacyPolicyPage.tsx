@@ -28,6 +28,9 @@ const useStyles = makeStyles(
         fontSize: "16px",
         lineHeight: "24px",
       },
+      semibold: {
+        fontWeight: 600,
+      },
       caption: {
         ...typography.body1,
       },
@@ -78,11 +81,16 @@ const useStyles = makeStyles(
         lineHeight: "24px",
         margin: `${constants.generalUnit * 2}px 0`,
       },
-      emailLink: {
+      hoverLink: {
         ...typography.body1,
-        color: palette.additional["blue"][6],
         fontSize: "16px",
         lineHeight: "24px",
+        color: palette.additional["geekblue"][7],
+        cursor: "pointer",
+        transition: "0.3s ease-in",
+        "&:hover":{
+         color: palette.additional["geekblue"][5],
+        }
       },
     }),
 )
@@ -117,6 +125,7 @@ const TermsOfServicePage: React.FC = () => {
             Welcome! Here at ChainSafe Systems Inc. (“ChainSafe”, “we”, “us” and similar meaning terms) we respect your privacy and are committed to protecting it. This privacy policy (“Privacy Policy”) describes how we collect, use, share and protect the personal information of our users (“you”) on ChainSafe Files (the “Service”, located at https://files.chainsafe.io).
           </Trans>
         </Typography>
+
         <Typography
           component="p"
           className={clsx(classes.text, classes.padSmall)}
@@ -125,6 +134,28 @@ const TermsOfServicePage: React.FC = () => {
             We take steps to ensure that the personal information that we collect about you is adequate, relevant, minimal, and used for limited purposes. By accessing the Service, you confirm that you have read and understand our Terms of Service (the “Terms”), found here, and this Privacy Policy. Any capitalized term not defined in this Privacy Policy is incorporated by reference from our Terms.
           </Trans>
         </Typography>
+         <a
+          href="/terms-of-service"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={classes.hoverLink}
+          >
+            <Typography variant="h5" className={classes.semibold} >
+              For residents of the European Economic Area (EEA) and the United Kingdom, pleaser refer to this policy.
+            </Typography>
+          </a>
+         <br/>
+         <br/>
+         <a
+          href="/terms-of-service"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={classes.hoverLink}
+          >
+            <Typography variant="h5" className={classes.semibold} >
+              Disclosures for California residents
+            </Typography>
+          </a>
         {/* The gist of it */}
         <Typography
           component="h2"
@@ -207,11 +238,19 @@ const TermsOfServicePage: React.FC = () => {
           </li>
           <li>
             <Trans>
-              <strong>Details of your usage of the Service:</strong> this includes traffic data, logs, other communication data and the resources that you access and use. This may also include the URLs, pages you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call us.
+              <strong>Details of your Service usage:</strong> this includes traffic data, logs, other communication data and the resources that you access and use. This may also include the URLs, pages you viewed or searched for, page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), methods used to browse away from the page, or any phone number used to call us.
             </Trans>
           </li>
         </ol>
-
+      <Typography
+          component="p"
+          variant="body1"
+          className={clsx(classes.text, classes.padSmall)}
+        >
+          <Trans>
+            Cookies. A “cookie” is a small file placed on your computer or device that can keep track of your visits and activities on the Service. You may refuse to accept cookies by activating the appropriate settings on your browser or by opting out of receiving them. If you opt-out of the use of cookies, you may be unable to access certain parts of the Service. Unless you adjust your browser settings to refuse cookies, the Service may ask for your consent to accept the use of its cookies and create them when you direct your browser to the Service.
+          </Trans>
+        </Typography>
         {/* When/how we collect information */}
         <Typography
           component="h2"
@@ -613,7 +652,7 @@ const TermsOfServicePage: React.FC = () => {
             <strong>Privacy Officer</strong>
             <br></br>
             <a
-              className={clsx(classes.emailLink)}
+              className={clsx(classes.hoverLink)}
               href="mailto:support@chainsafe.io"
             >
               support@chainsafe.io
