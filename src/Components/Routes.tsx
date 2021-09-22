@@ -3,6 +3,8 @@ import { Switch, Route } from "@chainsafe/common-components"
 import HomePage from "./Pages/HomePage"
 import TermsOfServicePage from "./Pages/TermsOfServicePage"
 import PrivacyPolicyPage from "./Pages/PrivacyPolicyPage"
+import EEAPolicyPage from "./Pages/EEAPolicy"
+import CaliforniaPolicyPage from "./Pages/CaliforniaPolicy"
 
 export const ROUTE_LINKS = {
   Home: "/",
@@ -10,6 +12,8 @@ export const ROUTE_LINKS = {
   Pricing: "/pricing",
   TermsOfService: "/terms-of-service",
   PrivacyPolicy: "/privacy-policy",
+  CaliforniaPolicy: "/privacy-policy-california",
+  EEAPolicy: "/privacy-policy-EEA-UK",
 }
 
 const Routes = () => {
@@ -25,6 +29,16 @@ const Routes = () => {
         exact
         path={ROUTE_LINKS.PrivacyPolicy}
         component={PrivacyPolicyPage}
+      />
+      <Route
+        exact
+        path={ROUTE_LINKS.CaliforniaPolicy}
+        component={CaliforniaPolicyPage}
+      />
+      <Route
+        exact
+        path={ROUTE_LINKS.EEAPolicy}
+        component={EEAPolicyPage}
       />
       <Route path={ROUTE_LINKS.HomeLang()} component={HomePage} />
     </Switch>
