@@ -135,7 +135,7 @@ const TermsOfServicePage: React.FC = () => {
           </Trans>
         </Typography>
          <a
-          href="/terms-of-service"
+          href="/privacy-policy-eea-uk"
           rel="noopener noreferrer"
           target="_blank"
           className={classes.hoverLink}
@@ -147,7 +147,7 @@ const TermsOfServicePage: React.FC = () => {
          <br/>
          <br/>
          <a
-          href="/terms-of-service"
+          href="/privacy-policy-california"
           rel="noopener noreferrer"
           target="_blank"
           className={classes.hoverLink}
