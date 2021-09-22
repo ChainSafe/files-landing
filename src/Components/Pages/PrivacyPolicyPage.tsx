@@ -141,7 +141,7 @@ const TermsOfServicePage: React.FC = () => {
           className={classes.hoverLink}
           >
             <Typography variant="h5" className={classes.semibold} >
-              For residents of the European Economic Area (EEA) and the United Kingdom, pleaser refer to this policy.
+              For residents of the European Economic Area (EEA) and the United Kingdom, pleaser refer to these additional terms.
             </Typography>
           </a>
          <br/>
