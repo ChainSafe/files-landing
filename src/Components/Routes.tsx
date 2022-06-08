@@ -40,7 +40,7 @@ const Routes = () => {
         path={ROUTE_LINKS.EEAPolicy}
         component={EEAPolicyPage}
       />
-      <Route path={ROUTE_LINKS.HomeLang()} component={HomePage} />
+      <Route exact path={ROUTE_LINKS.HomeLang()} component={HomePage} />
     </Switch>
   )
 }
