@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+Sitemap: https://files.chainsafe.io/sitemap.xml
 User-agent: *
 Disallow:
