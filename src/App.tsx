@@ -4,7 +4,6 @@ import { LanguageProvider } from "./Components/Contexts/LanguageContext"
 import { CssBaseline, Router } from "@chainsafe/common-components"
 import "@chainsafe/common-theme/dist/font-faces.css"
 import Routes from "./Components/Routes"
-import { PosthogProvider } from "./Components/Contexts/PosthogContext"
 
 const theme = createTheme({
   globalStyling: {
@@ -54,9 +53,7 @@ const App: React.FC<{}> = () => {
       <LanguageProvider availableLanguages={availableLanguages}>
         <CssBaseline />
         <Router>
-          <PosthogProvider>
-            <Routes />
-          </PosthogProvider>
+          <Routes />
         </Router>
       </LanguageProvider>
     </ThemeProvider>
