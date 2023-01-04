@@ -4,7 +4,6 @@ import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
-import { usePageTrack } from "../Contexts/PosthogContext"
 
 const useStyles = makeStyles(
   ({ palette, constants, breakpoints, typography }: ITheme) =>
@@ -88,8 +87,8 @@ const useStyles = makeStyles(
         color: palette.additional["geekblue"][7],
         cursor: "pointer",
         transition: "0.3s ease-in",
-        "&:hover":{
-         color: palette.additional["geekblue"][5],
+        "&:hover": {
+          color: palette.additional["geekblue"][5],
         }
       },
     }),
@@ -98,7 +97,6 @@ const useStyles = makeStyles(
 const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
-  usePageTrack()
   return (
     <div style={{ background: "#fafafa" }}>
       <NavBar />
@@ -134,28 +132,28 @@ const TermsOfServicePage: React.FC = () => {
             We take steps to ensure that the personal information that we collect about you is adequate, relevant, minimal, and used for limited purposes. By accessing the Service, you confirm that you have read and understand our Terms of Service (the “Terms”), found here, and this Privacy Policy. Any capitalized term not defined in this Privacy Policy is incorporated by reference from our Terms.
           </Trans>
         </Typography>
-         <a
+        <a
           href="/privacy-policy-eea-uk"
           rel="noopener noreferrer"
           target="_blank"
           className={classes.hoverLink}
-          >
-            <Typography variant="h5" className={classes.semibold} >
-              For residents of the European Economic Area (EEA) and the United Kingdom, pleaser refer to these additional terms.
-            </Typography>
-          </a>
-         <br/>
-         <br/>
-         <a
+        >
+          <Typography variant="h5" className={classes.semibold} >
+            For residents of the European Economic Area (EEA) and the United Kingdom, pleaser refer to these additional terms.
+          </Typography>
+        </a>
+        <br />
+        <br />
+        <a
           href="/privacy-policy-california"
           rel="noopener noreferrer"
           target="_blank"
           className={classes.hoverLink}
-          >
-            <Typography variant="h5" className={classes.semibold} >
-              Disclosures for California residents
-            </Typography>
-          </a>
+        >
+          <Typography variant="h5" className={classes.semibold} >
+            Disclosures for California residents
+          </Typography>
+        </a>
         {/* The gist of it */}
         <Typography
           component="h2"
@@ -242,7 +240,7 @@ const TermsOfServicePage: React.FC = () => {
             </Trans>
           </li>
         </ol>
-      <Typography
+        <Typography
           component="p"
           variant="body1"
           className={clsx(classes.text, classes.padSmall)}

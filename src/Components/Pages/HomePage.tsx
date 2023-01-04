@@ -6,12 +6,10 @@ import { useParams } from "@chainsafe/common-components"
 import { useLanguageContext } from "../Contexts/LanguageContext"
 import Hero from "../Subpages/Hero"
 import FeaturesList from "../Subpages/FeaturesList"
-import { usePageTrack } from "../Contexts/PosthogContext"
 
 const HomePage: React.FC = () => {
   const { lang } = useParams()
   const { availableLanguages, selectedLanguage, setActiveLanguage } = useLanguageContext()
-  usePageTrack()
   useEffect(() => {
     if (!lang) return
 

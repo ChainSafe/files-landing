@@ -4,7 +4,6 @@ import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
-import { usePageTrack } from "../Contexts/PosthogContext"
 
 const useStyles = makeStyles(
   ({ palette, constants, breakpoints, typography }: ITheme) =>
@@ -83,7 +82,6 @@ const useStyles = makeStyles(
 const TermsOfServicePage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
-  usePageTrack()
   return (
     <div style={{ background: "#fafafa" }}>
       <NavBar />

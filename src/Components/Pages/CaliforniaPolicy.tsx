@@ -4,7 +4,6 @@ import { Typography, useScrollToTop } from "@chainsafe/common-components"
 import clsx from "clsx"
 import { Trans } from "@lingui/macro"
 import NavBar from "../Modules/NavBar"
-import { usePageTrack } from "../Contexts/PosthogContext"
 
 const useStyles = makeStyles(
   ({ palette, constants, breakpoints, typography }: ITheme) =>
@@ -88,8 +87,8 @@ const useStyles = makeStyles(
         color: palette.additional["geekblue"][7],
         cursor: "pointer",
         transition: "0.3s ease-in",
-        "&:hover":{
-         color: palette.additional["geekblue"][5],
+        "&:hover": {
+          color: palette.additional["geekblue"][5],
         }
       },
     }),
@@ -98,7 +97,6 @@ const useStyles = makeStyles(
 const CaliforniaPolicyPage: React.FC = () => {
   const classes = useStyles()
   useScrollToTop(true);
-  usePageTrack()
   return (
     <div style={{ background: "#fafafa" }}>
       <NavBar />
@@ -115,7 +113,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           These disclosures are for residents of California who access and use ChainSafe Files as private individuals. You may authorize an agent to submit requests under this policy on your behalf. However, we will require written proof of the agent’s authority to do so and verify your identity.
+            These disclosures are for residents of California who access and use ChainSafe Files as private individuals. You may authorize an agent to submit requests under this policy on your behalf. However, we will require written proof of the agent’s authority to do so and verify your identity.
           </Trans>
         </Typography>
         <Typography
@@ -131,7 +129,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           If you are a resident of California, the following are the categories of information we collect from you:
+            If you are a resident of California, the following are the categories of information we collect from you:
           </Trans>
         </Typography>
         <ol className={clsx(classes.padSmall, classes.lowercaseOrderedList)}>
@@ -147,7 +145,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           We collect and use these categories of personal information for the business purposes described in our Privacy Policy’s How We Use Your Information section, in order to provide and manage our Service. We may disclose information in the following categories with our partners to assist with our operations and provide the Services: (a) Identifiers, (b) Customer Records, (c) Analytics, (d) Geolocation Data.
+            We collect and use these categories of personal information for the business purposes described in our Privacy Policy’s How We Use Your Information section, in order to provide and manage our Service. We may disclose information in the following categories with our partners to assist with our operations and provide the Services: (a) Identifiers, (b) Customer Records, (c) Analytics, (d) Geolocation Data.
           </Trans>
         </Typography>
         <Typography
@@ -163,7 +161,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           If you are a California resident and use the ChainSafe Files as a private individual, you may have a right to receive a yearly accounting of:
+            If you are a California resident and use the ChainSafe Files as a private individual, you may have a right to receive a yearly accounting of:
           </Trans>
         </Typography>
         <ol className={classes.lowercaseOrderedList}>
@@ -183,7 +181,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           <strong>ChainSafe does not sell information.</strong> Depending on the nature of your request, we may need additional information to verify your identity.
+            <strong>ChainSafe does not sell information.</strong> Depending on the nature of your request, we may need additional information to verify your identity.
           </Trans>
         </Typography>
         <Typography
@@ -199,7 +197,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           You also have the right to delete the personal information we have collected from you. However, this is not an absolute right, and ChainSafe may have legal grounds for keeping such data. To exercise any of these rights, please submit a request to support@chainsafe.io. In the request, please specify which right you are seeking to exercise and the scope of the request. We will confirm receipt of your request within fourteen (14) days. We may require specific information from you to help us verify your identity and process your request. If we are unable to verify your identity, we may deny your requests to know or delete it.
+            You also have the right to delete the personal information we have collected from you. However, this is not an absolute right, and ChainSafe may have legal grounds for keeping such data. To exercise any of these rights, please submit a request to support@chainsafe.io. In the request, please specify which right you are seeking to exercise and the scope of the request. We will confirm receipt of your request within fourteen (14) days. We may require specific information from you to help us verify your identity and process your request. If we are unable to verify your identity, we may deny your requests to know or delete it.
           </Trans>
         </Typography>
         <Typography
@@ -215,7 +213,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           If you are a resident of California, you may request a list of the categories of third-parties to whom we disclose such information. To exercise a request, please contact us at support@chainsafe.io. 
+            If you are a resident of California, you may request a list of the categories of third-parties to whom we disclose such information. To exercise a request, please contact us at support@chainsafe.io.
           </Trans>
         </Typography>
         <Typography
@@ -224,7 +222,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           Requests must include “California Shine the Light Request” in the subject line and include your name, street address, city, state, and ZIP code. We may require additional information from you to allow us to verify your identity. This may only be requested once during any calendar year.
+            Requests must include “California Shine the Light Request” in the subject line and include your name, street address, city, state, and ZIP code. We may require additional information from you to allow us to verify your identity. This may only be requested once during any calendar year.
           </Trans>
         </Typography>
         <Typography
@@ -240,7 +238,7 @@ const CaliforniaPolicyPage: React.FC = () => {
           className={clsx(classes.text, classes.padSmall)}
         >
           <Trans>
-           If you choose to exercise any of the rights listed above, you have the right to non-discriminatory treatment by ChainSafe.
+            If you choose to exercise any of the rights listed above, you have the right to non-discriminatory treatment by ChainSafe.
           </Trans>
         </Typography>
       </div>
