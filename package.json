@@ -60,5 +60,8 @@
     "@lingui/babel-preset-react": "2.9.2",
     "@lingui/cli": "3.8.10",
     "@lingui/macro": "3.8.10"
+  },
+  "volta": {
+    "node": "16.20.2"
   }
 }
