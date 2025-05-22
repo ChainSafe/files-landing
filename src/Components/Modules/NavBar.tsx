@@ -2,6 +2,7 @@ import React from "react"
 import { createStyles, ITheme, makeStyles } from "@chainsafe/common-theme"
 import { Grid, Typography } from "@chainsafe/common-components"
 import { Trans } from "@lingui/macro"
+import DiscontinuedBanner from "./DiscontinuedBanner"
 // import LanguageSelection from "../LanguageSelector"
 
 const useStyles = makeStyles(
@@ -13,7 +14,6 @@ const useStyles = makeStyles(
         justifyContent: "flex-start",
         height: `${constants.headerHeight}px`,
         position: "fixed",
-        padding: "1rem",
         zIndex: zIndex?.layer4,
         background: "#0f0f0f",
         [breakpoints.down("sm")]: {
@@ -25,6 +25,10 @@ const useStyles = makeStyles(
           left: "50%",
           transform: "translateX(-50%)",
         },
+        flexDirection: "column",
+      },
+      gridContainer: {
+        backgroundColor: "black",
       },
       logo: {
         width: constants.generalUnit * 4,
@@ -51,8 +55,9 @@ const useStyles = makeStyles(
 const NavBar: React.FC = () => {
   const classes = useStyles()
   return (
-    <div className={classes.container}>
-      <Grid container xs={12}>
+    <div className={classes.container} id="navbarsdasdasda">
+      <DiscontinuedBanner />
+      <Grid container xs={12} className={classes.gridContainer}>
         <Grid item justifyContent="center" alignItems="flex-start">
           <Grid container alignItems="center">
             <img
